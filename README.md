@@ -1,4 +1,4 @@
 # pag
 
-Article site
-and User Experience
+Sitio de articulos
+y reseñas de usuarios
