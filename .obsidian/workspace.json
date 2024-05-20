@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "5fa2ba456f477b52",
+    "type": "split",
+    "children": [
+      {
+        "id": "10233d43a40877c4",
+        "type": "tabs",
+        "dimension": 47.00772200772201,
+        "children": [
+          {
+            "id": "e35be6572907d28c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25f9ce46f565b706",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Organización del vault.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06b1df3d11467d17",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0149d73cde5e9d8a",
+        "type": "tabs",
+        "dimension": 52.99227799227799,
+        "children": [
+          {
+            "id": "967f170a0bba1470",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d95e4e03b514011",
+    "type": "split",
+    "children": [
+      {
+        "id": "8386da6896d262dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8a956f62927e19b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3efdf8fde98d1fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8788b14087c83c31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ef462a4aad21f3fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "749ae9de9e32bd6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1b57079c20b2c13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d30a83374043515f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7aa5d0a702618fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "51bbd70c82c38c95",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f8a956f62927e19b",
+  "lastOpenFiles": [
+    "Blip/Inspiracion",
+    "Organización del vault.md",
+    "Blip",
+    "Nueva carpeta",
+    "Neos",
+    "Back/Node",
+    "Back/Nueva carpeta",
+    "Front/Nextjs",
+    "Front/Nueva carpeta",
+    "Front/React",
+    "Back",
+    "Front",
+    "Welcome.md"
+  ]
+}
