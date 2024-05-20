@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/5. Creador de post de usuario.md",
+                "file": "Fases de desarrollo/Sin título.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/5. Creador de post de usuario.md",
+                "file": "Fases de desarrollo/Sin título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/5. Creador de post de usuario.md",
+                "file": "Fases de desarrollo/Sin título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/5. Creador de post de usuario.md"
+                "file": "Fases de desarrollo/Sin título.md"
               }
             }
           }
@@ -149,11 +149,13 @@
   },
   "active": "25f9ce46f565b706",
   "lastOpenFiles": [
+    "Tech/DB/Datos.md",
+    "Fases de desarrollo/Sin título.md",
+    "Diseño/5. Creador de post de usuario.md",
     "Diseño/4. Post de usuario.md",
     "Diseño/3. Panel de creacion de articulos.md",
     "Diseño/mockup/Main/Main SSR.canvas",
     "Diseño/2. Articulo.md",
-    "Diseño/5. Creador de post de usuario.md",
     "Material/post de usuarios.png",
     "Diseño/Control de versiones/2. Articulo 1.md",
     "Diseño/Control de versiones",
@@ -164,7 +166,6 @@
     "Blip/Insp. Colores/Sin título.md",
     "Blip/Insp. Botones/Sin título.md",
     "Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
-    "Tech/DB/Datos.md",
     "Sin título.canvas",
     "entrar a usuarios.png",
     "Tech/DB",
