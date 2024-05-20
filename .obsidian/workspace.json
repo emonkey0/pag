@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organización del vault.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06b1df3d11467d17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech/Screens/Main.md",
+                "file": "Blip/Insp. Imagenes General/Sin título.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/Screens/Main.md",
+                "file": "Blip/Insp. Imagenes General/Sin título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech/Screens/Main.md",
+                "file": "Blip/Insp. Imagenes General/Sin título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/Screens/Main.md"
+                "file": "Blip/Insp. Imagenes General/Sin título.md"
               }
             }
           }
@@ -159,34 +146,43 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "06b1df3d11467d17",
+  "active": "eb291d715f1bcb7f",
   "lastOpenFiles": [
+    "Blip/Insp. Colores/Sin título.md",
+    "Blip/Insp. Imagenes General/Sin título.md",
+    "Blip/Insp. Botones/Sin título.md",
     "Diseño/mockup/Main/Main SSR.canvas",
-    "Tech/Screens/Main.md",
-    "Tech/Screens",
-    "Diseño/1. Main.md",
-    "Diseño/mockup/Main/Main.md",
+    "Blip/Insp. Botones",
+    "Blip/Insp. UI WEB/Search.png",
+    "Blip/Insp. UI WEB/Search Results.png",
+    "Blip/Insp. UI WEB/Screenshot_2.png",
+    "Blip/Insp. UI WEB/Screenshot_1.png",
+    "Blip/Insp. UI WEB/Landing.png",
+    "Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
+    "Blip/Insp. Web General/ss.png",
+    "Blip/Insp. Web General/Media Player.png",
     "Diseño/4. Post de usuario.md",
+    "Diseño/5. Creador de post de usuario.md",
+    "Diseño/3. Panel de creacion de articulos.md",
+    "Diseño/2. Articulo.md",
+    "Diseño/1. Main.md",
+    "Tech/Screens/Main.md",
+    "Organización del vault.md",
+    "README.md",
+    "Tech/Screens",
+    "Diseño/mockup/Main/Main.md",
     "Material/Portadaparapost de usuario (1).png",
     "Material/Portadaparapost de usuario.psd",
-    "Diseño/2. Articulo.md",
     "Material/pruebaportada uno.png",
     "Material",
     "Nueva carpeta",
-    "entrar a usuarios.png",
-    "Diseño/5. Creador de post de usuario.md",
-    "Diseño/3. Panel de creacion de articulos.md",
     "Diseño/mockup/Main",
     "Sin título.canvas",
-    "README.md",
-    "Fases de desarrollo/Untitled Diagram.svg",
-    "Organización del vault.md",
     "Fases de desarrollo",
     "Diseño/mockup",
     "Diseño/wireframe",
     "Diseño",
     "Tech/Front/Diseño/mockup/Descripcion de Pantallas.md",
-    "Tech/Front/Diseño/mockup",
     "Tech/Diseño/mockup/Descripcion de Pantallas.md",
     "SCRUM.md",
     "Front/Diseño/mockup/Descripcion de Pantallas.md",

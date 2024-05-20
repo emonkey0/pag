@@ -1,2 +1,2 @@
-usar la mejor tecnica para SEO
+usar la mejor tecnología para SEO
 SSR
