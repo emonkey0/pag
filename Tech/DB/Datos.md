@@ -1,17 +1,16 @@
-
-### Datos sobre el usuario que tendra la app
+# Usuario
 Usuarios Necesarios únicamente para registro
 
-| id             | User    | Contra         | nickName      | telefono            |
-| -------------- | ------- | -------------- | ------------- | ------------------- |
-| idUsuarioUnico | Usuario | Contra Cifrada | apodo usuario | telefono para logeo |
+| id             | User    | Contra         | nickName      |
+| -------------- | ------- | -------------- | ------------- |
+| idUsuarioUnico | Usuario | Contra Cifrada | apodo usuario |
 Opcionales a menos que se activen funciones extras
 
-| email                            |     |
-| -------------------------------- | --- |
-| correo para logeo y verificacion |     |
+| email                            | telefono            |
+| -------------------------------- | ------------------- |
+| correo para logeo y verificacion | telefono para logeo |
 
-Logeos del usuario atravez del tiempo en el a cuenta
+Logeos del usuario atreves del tiempo en la cuenta
 
 | `first_name: str`      | last_name: str           | last_login: Optional[datetime]                           | is_active: bool                                            | is_verified: bool                                                                                                      | role: str                                                                                              | password_reset_token: str                                      | password_reset_expires: Optional[datetime]                                  |
 | ---------------------- | ------------------------ | -------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -19,5 +18,8 @@ Logeos del usuario atravez del tiempo en el a cuenta
 |                        |                          |                                                          |                                                            |                                                                                                                        |                                                                                                        |                                                                |                                                                             |
 
 
-### Tabla Login
+### Tabla Fotos
 
+| idUsuario          | Foto       | idFoto | Descripcion                           |
+| ------------------ | ---------- | ------ | ------------------------------------- |
+| Usuario Dueño Foto | /url o BOB | id     | Descripcion para busqueda del usuario |

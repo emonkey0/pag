@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/DB/Datos.md",
+                "file": "Diseño/5. Creador de post de usuario.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "ef462a4aad21f3fc",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/DB/Datos.md",
+                "file": "Diseño/5. Creador de post de usuario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech/DB/Datos.md",
+                "file": "Diseño/5. Creador de post de usuario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/DB/Datos.md"
+                "file": "Diseño/5. Creador de post de usuario.md"
               }
             }
           }
@@ -150,41 +149,42 @@
   },
   "active": "25f9ce46f565b706",
   "lastOpenFiles": [
-    "Diseño/1. Main.md",
-    "Tech/DB/Datos.md",
-    "Tech/DB",
-    "Diseño/2. Articulo.md",
-    "Diseño/5. Creador de post de usuario.md",
     "Diseño/4. Post de usuario.md",
     "Diseño/3. Panel de creacion de articulos.md",
+    "Diseño/mockup/Main/Main SSR.canvas",
+    "Diseño/2. Articulo.md",
+    "Diseño/5. Creador de post de usuario.md",
+    "Material/post de usuarios.png",
+    "Diseño/Control de versiones/2. Articulo 1.md",
+    "Diseño/Control de versiones",
+    "Material/post de usuarios.psd",
+    "Diseño/1. Main.md",
+    "Tech/Screens/Main.md",
     "Blip/Insp. Imagenes General/Sin título.md",
     "Blip/Insp. Colores/Sin título.md",
     "Blip/Insp. Botones/Sin título.md",
-    "Diseño/mockup/Main/Main SSR.canvas",
+    "Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
+    "Tech/DB/Datos.md",
+    "Sin título.canvas",
+    "entrar a usuarios.png",
+    "Tech/DB",
     "Blip/Insp. Botones",
     "Blip/Insp. UI WEB/Search.png",
     "Blip/Insp. UI WEB/Search Results.png",
     "Blip/Insp. UI WEB/Screenshot_2.png",
     "Blip/Insp. UI WEB/Screenshot_1.png",
     "Blip/Insp. UI WEB/Landing.png",
-    "Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
     "Blip/Insp. Web General/ss.png",
     "Blip/Insp. Web General/Media Player.png",
-    "Tech/Screens/Main.md",
     "Organización del vault.md",
     "README.md",
     "Tech/Screens",
     "Diseño/mockup/Main/Main.md",
-    "Material/Portadaparapost de usuario (1).png",
     "Material/Portadaparapost de usuario.psd",
-    "Material/pruebaportada uno.png",
     "Material",
     "Nueva carpeta",
     "Diseño/mockup/Main",
-    "Sin título.canvas",
     "Fases de desarrollo",
-    "Diseño/mockup",
-    "Diseño/wireframe",
     "Tech/Front/Diseño/mockup/Descripcion de Pantallas.md",
     "Tech/Diseño/mockup/Descripcion de Pantallas.md",
     "SCRUM.md",
