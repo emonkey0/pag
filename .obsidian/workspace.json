@@ -39,13 +39,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SCRUM.md",
+                "file": "Organización del vault.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30c1691244f7a072",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,22 +185,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8a956f62927e19b",
+  "active": "25f9ce46f565b706",
   "lastOpenFiles": [
-    "Front/Diseño/wireframe",
-    "Front/Diseño/mockup",
-    "Front/Diseño",
-    "SCRUM.md",
-    "Welcome.md",
+    "Diseño/mockup/Descripcion de Pantallas.md",
+    "Diseño/mockup",
+    "Diseño/wireframe",
+    "Diseño",
+    "Tech/Front/Diseño/mockup/Descripcion de Pantallas.md",
+    "Tech/Front/Diseño/mockup",
+    "Tech/Front/Diseño/wireframe",
+    "Tech/Front/Diseño",
+    "Tech/Diseño/mockup/Descripcion de Pantallas.md",
+    "Tech/Diseño/wireframe",
+    "Tech/Diseño/mockup",
+    "Tech/Diseño",
     "README.md",
     "Organización del vault.md",
-    "Blip/Inspiracion",
-    "Blip",
-    "Nueva carpeta",
-    "Neos",
-    "Back/Node",
-    "Back/Nueva carpeta",
-    "Front/Nextjs",
-    "Front/Nueva carpeta"
+    "Tech/Organizacion",
+    "SCRUM.md",
+    "Front/Diseño/mockup/Descripcion de Pantallas.md",
+    "Welcome.md"
   ]
 }
