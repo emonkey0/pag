@@ -52,8 +52,10 @@
             "id": "3181bc07a1d07d34",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md"
+              }
             }
           }
         ],
@@ -124,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md"
+              }
             }
           }
         ]
@@ -184,6 +190,7 @@
   },
   "active": "3181bc07a1d07d34",
   "lastOpenFiles": [
+    "piña.ico",
     "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
     "Pasted Image 20240520164502_279.png",
     "Diseño/mockup/Main/Main SSR.canvas",
