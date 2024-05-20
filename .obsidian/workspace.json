@@ -6,20 +6,7 @@
       {
         "id": "10233d43a40877c4",
         "type": "tabs",
-        "dimension": 47.00772200772201,
         "children": [
-          {
-            "id": "e35be6572907d28c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "25f9ce46f565b706",
             "type": "leaf",
@@ -40,20 +27,22 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "0149d73cde5e9d8a",
+        "id": "8fbafe914dd29267",
         "type": "tabs",
-        "dimension": 52.99227799227799,
         "children": [
           {
-            "id": "967f170a0bba1470",
+            "id": "8b88ba393135c3c4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SCRUM.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -122,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Organización del vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Organización del vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Organización del vault.md"
+              }
             }
           }
         ]
@@ -181,18 +174,20 @@
   },
   "active": "f8a956f62927e19b",
   "lastOpenFiles": [
-    "Blip/Inspiracion",
+    "Front/Diseño/wireframe",
+    "Front/Diseño/mockup",
+    "Front/Diseño",
+    "SCRUM.md",
+    "Welcome.md",
+    "README.md",
     "Organización del vault.md",
+    "Blip/Inspiracion",
     "Blip",
     "Nueva carpeta",
     "Neos",
     "Back/Node",
     "Back/Nueva carpeta",
     "Front/Nextjs",
-    "Front/Nueva carpeta",
-    "Front/React",
-    "Back",
-    "Front",
-    "Welcome.md"
+    "Front/Nueva carpeta"
   ]
 }
