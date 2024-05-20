@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/mockup/5. Creador de post de usuario.md",
+                "file": "Tech/Screens/Main.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/mockup/5. Creador de post de usuario.md",
+                "file": "Tech/Screens/Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/mockup/5. Creador de post de usuario.md",
+                "file": "Tech/Screens/Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/mockup/5. Creador de post de usuario.md"
+                "file": "Tech/Screens/Main.md"
               }
             }
           }
@@ -161,12 +161,21 @@
   },
   "active": "06b1df3d11467d17",
   "lastOpenFiles": [
-    "Diseño/mockup/4. Post de usuario.md",
-    "Diseño/mockup/5. Creador de post de usuario.md",
-    "Diseño/mockup/Main/Contenido Infiniti Scroll.canvas",
-    "Diseño/mockup/1. Main.md",
-    "Diseño/mockup/3. Panel de creacion de articulos.md",
-    "Diseño/mockup/2. Articulo.md",
+    "Diseño/mockup/Main/Main SSR.canvas",
+    "Tech/Screens/Main.md",
+    "Tech/Screens",
+    "Diseño/1. Main.md",
+    "Diseño/mockup/Main/Main.md",
+    "Diseño/4. Post de usuario.md",
+    "Material/Portadaparapost de usuario (1).png",
+    "Material/Portadaparapost de usuario.psd",
+    "Diseño/2. Articulo.md",
+    "Material/pruebaportada uno.png",
+    "Material",
+    "Nueva carpeta",
+    "entrar a usuarios.png",
+    "Diseño/5. Creador de post de usuario.md",
+    "Diseño/3. Panel de creacion de articulos.md",
     "Diseño/mockup/Main",
     "Sin título.canvas",
     "README.md",
@@ -178,11 +187,7 @@
     "Diseño",
     "Tech/Front/Diseño/mockup/Descripcion de Pantallas.md",
     "Tech/Front/Diseño/mockup",
-    "Tech/Front/Diseño/wireframe",
-    "Tech/Front/Diseño",
     "Tech/Diseño/mockup/Descripcion de Pantallas.md",
-    "Tech/Diseño/wireframe",
-    "Tech/Diseño/mockup",
     "SCRUM.md",
     "Front/Diseño/mockup/Descripcion de Pantallas.md",
     "Welcome.md"
