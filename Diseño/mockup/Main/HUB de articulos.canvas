@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"2e61c49d38f27b49","type":"file","file":"Diseño/1. Main.md","x":-228,"y":-420,"width":428,"height":820},
+		{"id":"7164007b061a528c","type":"file","file":"Diseño/2. Articulo.md","x":-198,"y":-310,"width":380,"height":380},
+		{"id":"a54bfd90d4da0e8b","type":"file","file":"Diseño/2. Articulo.md","x":12,"y":100,"width":170,"height":280},
+		{"id":"46f939c5019974d8","type":"file","file":"Diseño/2. Articulo.md","x":-198,"y":100,"width":170,"height":280}
+	],
+	"edges":[]
+}

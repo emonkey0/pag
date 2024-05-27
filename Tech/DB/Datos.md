@@ -20,6 +20,6 @@ Logeos del usuario atreves del tiempo en la cuenta
 
 ### Tabla Fotos
 
-| idUsuario          | Foto       | idFoto | Descripcion                           |
-| ------------------ | ---------- | ------ | ------------------------------------- |
-| Usuario Dueño Foto | /url o BOB | id     | Descripcion para busqueda del usuario |
+| idFoto | Foto       | idUsuario            | Descripcion                           |
+| ------ | ---------- | -------------------- | ------------------------------------- |
+| id     | /url o BOB | idUsuario Dueño Foto | Descripcion para busqueda del usuario |

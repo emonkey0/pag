@@ -21,12 +21,24 @@
             "id": "731c998d8032260f",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blip/Insp. Colores/Sin título.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "caa085d32698c0fe",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
-                "file": "Diseño/mockup/Main/Main SSR.canvas",
+                "file": "Diseño/mockup/Main/HUB de articulos.canvas",
                 "viewState": {
-                  "x": -30,
-                  "y": -40,
+                  "x": -14,
+                  "y": -10,
                   "zoom": 0
                 }
               }
@@ -52,14 +64,19 @@
             "id": "3181bc07a1d07d34",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md"
+                "file": "Diseño/mockup/Main/HUB de articulos.canvas",
+                "viewState": {
+                  "x": -14,
+                  "y": -10.000000000000085,
+                  "zoom": -0.32112859636821023
+                }
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.5
   },
   "right": {
     "id": "ef462a4aad21f3fc",
@@ -126,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
+                "file": "Blip/Insp. Colores/Sin título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
+                "file": "Blip/Insp. Colores/Sin título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md"
+                "file": "Blip/Insp. Colores/Sin título.md"
               }
             }
           }
@@ -179,64 +196,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3181bc07a1d07d34",
+  "active": "731c998d8032260f",
   "lastOpenFiles": [
-    "piña.ico",
     "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
-    "Pasted Image 20240520164502_279.png",
-    "Diseño/mockup/Main/Main SSR.canvas",
-    "Pasted Image 20240520164141_289.png",
     "Blip/Insp. PosiblesIdeas/Sin título.md",
-    "Blip/Insp. PosiblesIdeas",
-    "Blip/insp. Thumnail post/Danii Post.md",
-    "Blip/insp. Thumnail post/Drawing 2024-05-20 16.26.57.excalidraw.md",
-    "Blip/Insp. Web General/Media Player.png",
-    "Material/7fbb8cad4b3f1216d74864e38e3dd915.gif",
-    "Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
-    "Blip/insp. Thumnail post",
-    "Blip/Insp. Web General/ss.png",
     "Blip/Insp. UI WEB/Search Results.png",
-    "Blip/Insp. UI WEB/Search.png",
     "Blip/Insp. UI WEB/Screenshot_2.png",
     "Blip/Insp. UI WEB/Screenshot_1.png",
+    "Blip/Insp. UI WEB/Landing.png",
+    "Excalidraw/Drawing 2024-05-20 20.49.53.excalidraw.md",
+    "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
+    "Diseño/1. Main.md",
+    "Diseño/mockup/Main/HUB de articulos.canvas",
+    "Diseño/Control de versiones/2. Articulo 1.md",
+    "Blip/Insp. Web General/ss.png",
+    "Blip/Insp. Web General/Media Player.png",
+    "Blip/Insp. UI WEB/Search.png",
+    "Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
+    "Blip/Insp. Colores/Sin título.md",
+    "Blip/insp. Thumnail post/Danii Post.md",
     "Blip/Insp. Imagenes General/Sin título.md",
-    "README.md",
+    "Blip/Insp. Botones/Sin título.md",
     "Fases de desarrollo/Sin título.md",
-    "Excalidraw/Drawing 2024-05-20 16.11.39.excalidraw.md",
-    "Excalidraw",
-    "Blip/Excalidraw/Drawing 2024-05-20 16.11.33.excalidraw.md",
-    "Blip/Excalidraw",
-    "Blip/draw/Excalidraw/Drawing 2024-05-20 16.11.10.excalidraw.md",
-    "Blip/draw/Excalidraw",
-    "Blip/draw",
-    "SCRUM.md",
-    "Organización del vault.md",
-    "Tech/Hosting/Opciones.md",
-    "Tech/Hosting",
     "Tech/DB/Datos.md",
-    "Diseño/5. Creador de post de usuario.md",
+    "Material/pruebaportada uno.png",
+    "Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
+    "SCRUM.md",
+    "README.md",
+    "Tech/Screens/Main.md",
+    "Tech/Hosting/Opciones.md",
     "Diseño/4. Post de usuario.md",
     "Diseño/3. Panel de creacion de articulos.md",
     "Diseño/2. Articulo.md",
-    "Diseño/Control de versiones/2. Articulo 1.md",
-    "Diseño/Control de versiones",
-    "Material/post de usuarios.psd",
-    "Diseño/1. Main.md",
-    "Tech/Screens/Main.md",
-    "Blip/Insp. Colores/Sin título.md",
-    "Blip/Insp. Botones/Sin título.md",
+    "Diseño/5. Creador de post de usuario.md",
+    "Organización del vault.md",
+    "Blip/Imsp. Prompt/intento de general un scroll infinito de novato.txt",
+    "Blip/Imsp. Prompt/New Text Document.txt",
+    "Blip/Imsp. Prompt",
+    "Blip/New folder",
+    "Material/245-2457774_png-file-svg-swipe-left-transparent-icon.png.crdownload",
+    "Material/png-clipart-arrow-and-hand-art-computer-icons-finger-symbol-gesture-swipe-miscellaneous-text.png.crdownload",
+    "piña.ico",
+    "Blip/Insp. PosiblesIdeas",
+    "Blip/insp. Thumnail post/Drawing 2024-05-20 16.26.57.excalidraw.md",
+    "Blip/insp. Thumnail post",
+    "Excalidraw/Drawing 2024-05-20 16.11.39.excalidraw.md",
+    "Excalidraw",
+    "Blip/Excalidraw/Drawing 2024-05-20 16.11.33.excalidraw.md",
+    "Blip/draw/Excalidraw/Drawing 2024-05-20 16.11.10.excalidraw.md",
     "Sin título.canvas",
-    "Tech/DB",
-    "Diseño/mockup/Main/Main.md",
-    "Tech/Front/Diseño/mockup/Descripcion de Pantallas.md"
+    "Diseño/mockup/Main/Main.md"
   ]
 }
