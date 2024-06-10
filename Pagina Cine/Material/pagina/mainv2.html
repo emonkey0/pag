@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convertidor de Imagen a ASCII</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #asciiArt {
+      font-family: monospace;
+      white-space: pre;
+      font-size: 8px; /* Ajusta el tamaño de fuente según sea necesario */
+    }
+  </style>
+</head>
+<body>
+  <input type="file" id="imageUpload" accept="image/*" />
+
+  <div>
+    <label for="brightness">Brillo:</label>
+    <input type="range" id="brightness" min="0" max="200" value="100">
+  </div>
+
+  <div>
+    <label for="contrast">Contraste:</label>
+    <input type="range" id="contrast" min="0" max="200" value="100">
+  </div>
+
+  <div>
+    <label for="asciiScale">Escala:</label>
+    <select id="asciiScale">
+      <option value="normal">Normal</option>
+      <option value="minimalist">Minimalista</option>
+      <option value="alphabetic">Alfabético</option>
+    </select>
+  </div>
+
+  <div id="asciiArt"></div>
+
+  <script>
+    const asciiScales = {
+      normal: '@%#*+=-:. ',
+      minimalist: '#+- ',
+      alphabetic: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    };
+
+    function convertToAscii(imageData, brightness, contrast, scale) {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = 820;
+      canvas.height = 312;
+      ctx.drawImage(imageData, 0, 0, canvas.width, canvas.height);
+
+      const pixels = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+      let asciiArt = '';
+
+      for (let y = 0; y < canvas.height; y += 2) {
+        for (let x = 0; x < canvas.width; x++) {
+          const index = (y * canvas.width + x) * 4;
+          const r = pixels[index];
+          const g = pixels[index + 1];
+          const b = pixels[index + 2];
+
+          // Ajustar brillo y contraste
+          const adjustedBrightness = Math.round(brightness * (r + g + b) / 300);
+          const factor = (259 * (contrast + 255)) / (255 * (259 - contrast));
+          const adjustedContrast = Math.round(factor * (adjustedBrightness - 128) + 128);
+
+          const charIndex = Math.floor(adjustedContrast / 256 * asciiScales[scale].length);
+          asciiArt += asciiScales[scale][charIndex];
+        }
+        asciiArt += '\n';
+      }
+
+      return asciiArt;
+    }
+
+    function updateAsciiArt() {
+      const imageData = document.getElementById('imageUpload').files[0];
+      const brightness = document.getElementById('brightness').value;
+      const contrast = document.getElementById('contrast').value;
+      const scale = document.getElementById('asciiScale').value;
+
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const image = new Image();
+        image.onload = function() {
+          const asciiArt = convertToAscii(image, brightness, contrast, scale);
+          document.getElementById('asciiArt').textContent = asciiArt;
+        };
+        image.src = event.target.result;
+      };
+      reader.readAsDataURL(imageData);
+    }
+
+    document.getElementById('imageUpload').addEventListener('change', updateAsciiArt);
+    document.getElementById('brightness').addEventListener('input', updateAsciiArt);
+    document.getElementById('contrast').addEventListener('input', updateAsciiArt);
+    document.getElementById('asciiScale').addEventListener('change', updateAsciiArt);
+  </script>
+</body>
+</html>

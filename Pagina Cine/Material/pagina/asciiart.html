@@ -1,0 +1,1723 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="copyright" content="Injosoft AB"/>
+        <meta name="abstract" content="ASCII Art"/>
+        <meta name="revisit-after" content="20 Days"/>
+        <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+        <script type="text/javascript" async=true>
+            (function() {
+                var host = 'www.asciiart.eu';
+                var element = document.createElement('script');
+                var firstScript = document.getElementsByTagName('script')[0];
+                var url = 'https://cmp.quantcast.com'.concat('/choice/', 'teAXvqeG-gqVs', '/', host, '/choice.js?tag_version=V2');
+                var uspTries = 0;
+                var uspTriesLimit = 3;
+                element.async = true;
+                element.type = 'text/javascript';
+                element.src = url;
+
+                firstScript.parentNode.insertBefore(element, firstScript);
+
+                function makeStub() {
+                    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+                    var queue = [];
+                    var win = window;
+                    var cmpFrame;
+
+                    function addFrame() {
+                        var doc = win.document;
+                        var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+                        if (!otherCMP) {
+                            if (doc.body) {
+                                var iframe = doc.createElement('iframe');
+                                iframe.style.cssText = 'display:none';
+                                iframe.name = TCF_LOCATOR_NAME;
+                                doc.body.appendChild(iframe);
+                            } else {
+                                setTimeout(addFrame, 5);
+                            }
+                        }
+                        return !otherCMP;
+                    }
+
+                    function tcfAPIHandler() {
+                        var gdprApplies;
+                        var args = arguments;
+
+                        if (!args.length) {
+                            return queue;
+                        } else if (args[0] === 'setGdprApplies') {
+                            if (args.length > 3 && args[2] === 2 && typeof args[3] === 'boolean') {
+                                gdprApplies = args[3];
+                                if (typeof args[2] === 'function') {
+                                    args[2]('set', true);
+                                }
+                            }
+                        } else if (args[0] === 'ping') {
+                            var retr = {
+                                gdprApplies: gdprApplies,
+                                cmpLoaded: false,
+                                cmpStatus: 'stub'
+                            };
+
+                            if (typeof args[2] === 'function') {
+                                args[2](retr);
+                            }
+                        } else {
+                            if (args[0] === 'init' && typeof args[3] === 'object') {
+                                args[3] = Object.assign(args[3], {
+                                    tag_version: 'V2'
+                                });
+                            }
+                            queue.push(args);
+                        }
+                    }
+
+                    function postMessageEventHandler(event) {
+                        var msgIsString = typeof event.data === 'string';
+                        var json = {};
+
+                        try {
+                            if (msgIsString) {
+                                json = JSON.parse(event.data);
+                            } else {
+                                json = event.data;
+                            }
+                        } catch (ignore) {}
+
+                        var payload = json.__tcfapiCall;
+
+                        if (payload) {
+                            window.__tcfapi(payload.command, payload.version, function(retValue, success) {
+                                var returnMsg = {
+                                    __tcfapiReturn: {
+                                        returnValue: retValue,
+                                        success: success,
+                                        callId: payload.callId
+                                    }
+                                };
+                                if (msgIsString) {
+                                    returnMsg = JSON.stringify(returnMsg);
+                                }
+                                if (event && event.source && event.source.postMessage) {
+                                    event.source.postMessage(returnMsg, '*');
+                                }
+                            }, payload.parameter);
+                        }
+                    }
+
+                    while (win) {
+                        try {
+                            if (win.frames[TCF_LOCATOR_NAME]) {
+                                cmpFrame = win;
+                                break;
+                            }
+                        } catch (ignore) {}
+
+                        if (win === window.top) {
+                            break;
+                        }
+                        win = win.parent;
+                    }
+                    if (!cmpFrame) {
+                        addFrame();
+                        win.__tcfapi = tcfAPIHandler;
+                        win.addEventListener('message', postMessageEventHandler, false);
+                    }
+                }
+                ;
+                makeStub();
+
+                var uspStubFunction = function() {
+                    var arg = arguments;
+                    if (typeof window.__uspapi !== uspStubFunction) {
+                        setTimeout(function() {
+                            if (typeof window.__uspapi !== 'undefined') {
+                                window.__uspapi.apply(window.__uspapi, arg);
+                            }
+                        }, 500);
+                    }
+                };
+
+                var checkIfUspIsReady = function() {
+                    uspTries++;
+                    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+                        console.warn('USP is not accessible');
+                    } else {
+                        clearInterval(uspInterval);
+                    }
+                };
+
+                if (typeof window.__uspapi === 'undefined') {
+                    window.__uspapi = uspStubFunction;
+                    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+                }
+            }
+            )();
+        </script>
+        <!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+        <script async src="https://cdn.fuseplatform.net/publift/tags/2/3083/fuse.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="preload" as="font" href="/css/fonts/icomoon.woff2?1o2951" type="font/woff2" crossorigin="anonymous">
+        <style>
+            @font-face {
+                font-family: 'icomoon';
+                font-display: swap;
+                font-weight: normal;
+                font-style: normal;
+                src: url('/css/fonts/icomoon.woff2?1o2951') format('woff2'),url('/css/fonts/icomoon.woff?1o2951') format('woff'),url('/css/fonts/icomoon.ttf?1o2951') format('truetype'),url('/css/fonts/icomoon.svg?9x4rk8#icomoon') format('svg');
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68824650-9"></script>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            //gtag('config', 'UA-68824650-9', { 'anonymize_ip': true });
+        </script>
+        <link rel="stylesheet" href="/css/custom.css?v=1.8">
+        <link href="https://fonts.googleapis.com/css?family=Rationale" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0d47a1">
+        <meta name="msapplication-TileColor" content="#2d89ef">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Use our free online ASCII Art tool to easily and quickly convert images to ASCII art. Perfect for creative projects and fun. Try it today!">
+        <meta name="keyword" content="ascii convert, image to ascii, ascii art generator, text art tool, ascii art converter, image to ascii art, picture to ascii, ascii text generator, image to text art, ascii generator image">
+        <link rel="canonical" href="https://www.asciiart.eu/image-to-ascii"/>
+        <meta property="og:locale" content="sv_SE"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Image to ASCII: Free ASCII Art Converter"/>
+        <meta property="og:description" content="Use our free online ASCII Art tool to easily and quickly convert images to ASCII art. Perfect for creative projects and fun. Try it today!"/>
+        <meta property="og:url" content="https://www.asciiart.eu"/>
+        <meta property="og:site_name" content="Image to ASCII: Free ASCII Art Converter"/>
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" content="www.asciiart.eu">
+        <meta name="twitter:description" content="Use our free online ASCII Art tool to easily and quickly convert images to ASCII art. Perfect for creative projects and fun. Try it today!"/>
+        <meta name="twitter:title" content="Image to ASCII: Free ASCII Art Converter"/>
+        <meta name="twitter:site" content="@ASCIIArtArchive">
+        <meta name="twitter:creator" content="@ASCIIArtArchive">
+        <style>
+            .content {
+                color: #000000;
+                background-color: #ffffff;
+            }
+
+            .border-content {
+                border-color: #8DA6CD !important;
+            }
+
+            .content a {
+                color: #007bff;
+            }
+
+            .content a:hover {
+                color: #0056b3;
+            }
+
+            .breadcrumb a {
+                color: #007bff;
+            }
+
+            .content pre {
+                color: #000000;
+            }
+
+            footer .social a {
+                color: #b7b7b7;
+            }
+
+            .bg-header {
+                background-color: #e8f1ff;
+            }
+
+            .border-header {
+                border-color: #8DA6CD !important;
+            }
+        </style>
+        <title>Image to ASCII: Free ASCII Art Converter</title>
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand navbar-dark bg-darkblue px-2 px-sm-3">
+            <a class="sidebar-toggle text-light mr-3">
+                <i class="icon-bars"></i>
+            </a>
+            <a class="navbar-brand py-0 text-truncate" href="/">ASCII Art Archive</a>
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown" style="min-width: 50px;">
+                        <a class="nav-link dropdown-toggle pr-1" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                            <i class="icon-paint-brush"></i>
+                            <span class="d-none d-sm-inline">Color Themes</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <button class="dropdown-item" onclick="changeColors('default');">Default</button>
+                            <button class="dropdown-item" onclick="changeColors('green-black');">Green/Black</button>
+                            <button class="dropdown-item" onclick="changeColors('yellow-black');">Yellow/Black</button>
+                            <button class="dropdown-item" onclick="changeColors('white-black');">White/Black</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex">
+            <nav class="sidebar border-content border-right bg-darkblue">
+                <ul class="list-unstyled">
+                    <li class="pt-3 pl-2">
+                        <span class="text-white" style="font-family: 'Rationale', sans-serif; font-size: 120%;">
+                            <b>ASCII Art Menu</b>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="/faq" id="faq">ASCII Art FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/glossary" id="glossary">ASCII Art Glossary</a>
+                    </li>
+                    <li>
+                        <a href="/ascii-artists" id="artists">ASCII Artists</a>
+                    </li>
+                    <li>
+                        <a href="/ascii-one-line" id="one-line">ASCII One Line</a>
+                    </li>
+                    <li>
+                        <a href="https://www.ascii-code.com" title="ASCII Code - The extended ASCII table">
+                            ASCII Table <i class="fas fa-external-link-alt fa-xs"></i>
+                        </a>
+                    </li>
+                    <li class="pt-3 pl-0">
+                        <span style="font-family: 'Rationale', sans-serif; font-size: 120%;">
+                            <b>
+                                <a href="/ascii-art-tools" class="text-white pl-2">ASCII Art Tools</a>
+                            </b>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="/ascii-draw-studio" id="ascii-draw-studio">ASCII Draw Studio</a>
+                    </li>
+                    <li>
+                        <a href="/image-to-ascii" id="image-to-ascii">Image to ASCII Art</a>
+                    </li>
+                    <li>
+                        <a href="/text-to-ascii-art" id="text-to-ascii">Text to ASCII Art</a>
+                    </li>
+                    <li>
+                        <a href="/webcam-to-ascii-art" id="webcam-to-ascii">Webcam to ASCII Art</a>
+                    </li>
+                    <li class="pt-3 pl-2">
+                        <span class="text-white" style="font-family: 'Rationale', sans-serif; font-size: 120%;">
+                            <b>Categories</b>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="/animals" id="animals">Animals</a>
+                    </li>
+                    <li>
+                        <a href="/art-and-design" id="art-and-design">Art and design</a>
+                    </li>
+                    <li>
+                        <a href="/books" id="books">Books</a>
+                    </li>
+                    <li>
+                        <a href="/buildings-and-places" id="buildings-and-places">Buildings & places</a>
+                    </li>
+                    <li>
+                        <a href="/cartoons" id="cartoons">Cartoons</a>
+                    </li>
+                    <li>
+                        <a href="/clothing-and-accessories" id="clothing-and-accessories">Clothing & accessories</a>
+                    </li>
+                    <li>
+                        <a href="/comics" id="comics">Comics</a>
+                    </li>
+                    <li>
+                        <a href="/computers" id="computers">Computers</a>
+                    </li>
+                    <li>
+                        <a href="/electronics" id="electronics">Electronics</a>
+                    </li>
+                    <li>
+                        <a href="/food-and-drinks" id="food-and-drinks">Food and drinks</a>
+                    </li>
+                    <li>
+                        <a href="/holiday-and-events" id="holiday-and-events">Holiday & events</a>
+                    </li>
+                    <li>
+                        <a href="/logos" id="logos">Logos</a>
+                    </li>
+                    <li>
+                        <a href="/miscellaneous" id="miscellaneous">Miscellaneous</a>
+                    </li>
+                    <li>
+                        <a href="/movies" id="movies">Movies</a>
+                    </li>
+                    <li>
+                        <a href="/music" id="music">Music</a>
+                    </li>
+                    <li>
+                        <a href="/mythology" id="mythology">Mythology</a>
+                    </li>
+                    <li>
+                        <a href="/nature" id="nature">Nature</a>
+                    </li>
+                    <li>
+                        <a href="/people" id="people">People</a>
+                    </li>
+                    <li>
+                        <a href="/plants" id="plants">Plants</a>
+                    </li>
+                    <li>
+                        <a href="/religion" id="religion">Religion</a>
+                    </li>
+                    <li>
+                        <a href="/space" id="space">Space</a>
+                    </li>
+                    <li>
+                        <a href="/sports-and-outdoors" id="sports-and-outdoors">Sports & outdoors</a>
+                    </li>
+                    <li>
+                        <a href="/television" id="television">Television</a>
+                    </li>
+                    <li>
+                        <a href="/toys" id="toys">Toys</a>
+                    </li>
+                    <li>
+                        <a href="/vehicles" id="vehicles">Vehicles</a>
+                    </li>
+                    <li>
+                        <a href="/video-games" id="video-games">Video games</a>
+                    </li>
+                    <li>
+                        <a href="/weapons" id="weapons">Weapons</a>
+                    </li>
+                </ul>
+                <div class="mb-5"></div>
+            </nav>
+            <div class="content">
+                <div class="content header-line border-content border-top"></div>
+                <div class="p-2 px-sm-4 pb-sm-4 text-center ascii-art-label">
+                    <div class="text-truncate">
+                        <span>Use our free online ASCII art tool to easily and quickly convert images to ASCII art.</span>
+                    </div>
+                    <div class="bg-header border border-header rounded m-0 pb-2">
+                        <pre class="p-0 m-0 text-dark">___                              _             _    ____   ____ ___ ___      _         _   
+|_ _|_ __ ___   __ _  __ _  ___  | |_ ___      / \  / ___| / ___|_ _|_ _|    / \   _ __| |_ 
+ | || '_ ` _ \ / _` |/ _` |/ _ \ | __/ _ \    / _ \ \___ \| |    | | | |    / _ \ | '__| __|
+ | || | | | | | (_| | (_| |  __/ | || (_) |  / ___ \ ___) | |___ | | | |   / ___ \| |  | |_ 
+|___|_| |_| |_|\__,_|\__, |\___|  \__\___/  /_/   \_\____/ \____|___|___| /_/   \_\_|   \__|
+                     |___/                                                                  </pre>
+                    </div>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb py-1 px-2 px-md-3 mt-2 mb-0 bg-header border border-header">
+                            <li class="breadcrumb-item">
+                                <a href="/">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="/ascii-art-tools" title="ASCII Art Tools">ASCII Art Tools</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Image to ASCII</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="container">
+                    <style>
+                        #drop-area {
+                            border: 2px dashed #ccc;
+                            border-radius: 15px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            cursor: pointer;
+                        }
+
+                        #drop-area.highlight {
+                            border-color: purple;
+                        }
+
+                        input[type="file"] {
+                            display: none;
+                        }
+
+                        .label-button {
+                            margin-top: 10px;
+                            padding: 10px;
+                            background: #ccc;
+                            cursor: pointer;
+                        }
+
+                        #output {
+                            white-space: pre;
+                            font-family: monospace;
+                            font-size: 12px;
+                            line-height: 12px;
+                            letter-spacing: unset;
+                            transform: unset;
+                            overflow-y: hidden;
+                        }
+
+                        #canvas-container {
+                            position: relative;
+                            max-height: 400px;
+                            border: 1px solid #a1a1a1;
+                            border-radius: 10px;
+                            overflow-y: auto;
+                            overflow-x: hidden;
+                            background-color: #f8f8f8;
+                        }
+
+                        #canvas-container::-webkit-scrollbar-button {
+                            display: none;
+                        }
+
+                        /* Anpassa scrollbaren för #canvas-container */
+                        #canvas-container::-webkit-scrollbar {
+                            width: 10px;
+                        }
+
+                        /* Anpassa scrollblocket för #canvas-container */
+                        #canvas-container::-webkit-scrollbar-thumb {
+                            background-color: rgba(136, 136, 136, 0.5);
+                            /* Halvtransparent */
+                            border-radius: 10px;
+                        }
+
+                        /* Ändra färg på hover för #canvas-container */
+                        #canvas-container::-webkit-scrollbar-thumb:hover {
+                            background-color: rgba(85, 85, 85, 0.5);
+                            /* Halvtransparent */
+                        }
+
+                        .grid {
+                            display: grid;
+                            grid-template-columns: repeat(var(--bs-columns, 12), 1fr);
+                            gap: .5rem 1.2rem;
+                        }
+
+                        .grid .g-col-12 {
+                            grid-column: auto/span 12;
+                        }
+
+                        .flex-fill {
+                            -ms-flex: 1 1 auto!important;
+                            flex: 1 1 auto!important;
+                        }
+
+                        .spanWidth {
+                            flex: 0 0 40px;
+                        }
+
+                        .grid label {
+                            flex: 0 0 120px;
+                        }
+
+                        .help-guide li {
+                            margin-bottom: 10px;
+                        }
+
+                        @media (min-width: 992px) {
+                            .flex-lg-w300 {
+                                flex: 0 0 300px;
+                            }
+                        }
+
+                        @media (min-width: 1200px) {
+                            .grid .g-col-xl-6 {
+                                grid-column: auto/span 6!important;
+                            }
+                        }
+                    </style>
+                    <div class="row">
+                        <div class="col">
+                            <div class="p-2 p-lg-3 bg-body-tertiary border rounded-3">
+                                Welcome to our <h1 class="d-inline-block h6 mb-0">Image to ASCII Art</h1>
+                                page, your go-to destination for turning images into stunning ASCII art creations. Utilize our free online ASCII art generator to easily and quickly convert your photos into text-based art. Ideal for artists, hobbyists, or anyone looking to explore a new form of digital expression. Get started now and bring your images to life in a whole new way!
+            
+                            </div>
+                            <div class="px-3 py-3 bg-body-tertiary border rounded-3 mt-3">
+                                <div class="d-flex flex-column flex-lg-row">
+                                    <div class="flex-lg-w300 mr-lg-3 mb-4 mb-lg-0">
+                                        <div id="canvas-container" class="mb-2">
+                                            <canvas id="image-preview" width="0" height="0" class="d-block"></canvas>
+                                        </div>
+                                        <div id="drop-area" class="text-center">
+                                            <form class="my-form">
+                                                Upload a file by dragging and dropping it here, or click here to select file
+                                <input type="file" id="fileElem" accept="image/*">
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="flex-fill">
+                                        <div class="grid">
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="asciiWidth" class="mb-0">Characters</label>
+                                                <input type="range" id="asciiWidth" min="20" max="400" value="100" class="custom-range flex-fill mx-2">
+                                                <span id="asciiWidthValue" class="spanWidth">100</span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center"></div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="brightness" class="mb-0">Brightness</label>
+                                                <input type="range" id="brightness" min="0" max="200" value="100" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="brightnessValue">100</span>
+                                                    %
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="brightness" class="mb-0">Contrast</label>
+                                                <input type="range" id="contrast" min="0" max="200" value="100" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="contrastValue">100</span>
+                                                    %
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="saturation" class="mb-0">Saturation</label>
+                                                <input type="range" id="saturation" name="saturation" min="0" max="400" value="100" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="saturation-value">100</span>
+                                                    %
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="hue" class="mb-0">Hue</label>
+                                                <input type="range" id="hue" name="hue" min="0" max="360" value="0" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="hue-value">0</span>
+                                                    °
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="grayscale" class="mb-0">Grayscale</label>
+                                                <input type="range" id="grayscale" name="grayscale" min="0" max="100" value="0" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="grayscale-value">0</span>
+                                                    %
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="sepia" class="mb-0">Sepia</label>
+                                                <input type="range" id="sepia" name="sepia" min="0" max="100" value="0" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="sepia-value">0</span>
+                                                    %
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="invert" class="text-nowrap mb-0"">Invert Colors</label>
+                                <input type=" range " id=" invert " name=" invert " min=" 0 " max=" 100 " value=" 0 " class=" custom-range flex-fill mx-2 ">
+                                <span class=" spanWidth "><span id=" invert-value ">0</span>%</span>
+                            </div>
+                            <div class=" g-col-12 g-col-xl-6 d-flex align-self-center ">
+                                <label for=" use-threshold " class=" text-nowrap mb-0"">
+                                                    <input type="checkbox" id="use-threshold" name="use-threshold">Thresholding
+                                                </label>
+                                                <input type="range" id="thresholdOffset" name="thresholdOffset" min="0" max="255" step="1" value="128" class="custom-range flex-fill mx-2" disabled>
+                                                <span id="thresholdOffset-value" class="spanWidth">128</span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="use-sharpen" class="text-nowrap mb-0""><input type=" checkbox " id=" use-sharpen " name=" use-sharpen "> Sharpness</label>
+                                <input type=" range " id=" sharpness " name=" sharpness " min=" 1 " max=" 20 " value=" 9 " step=" 0.1 " class=" custom-range flex-fill mx-2 " disabled>
+                                <span id=" sharpness-value " class=" spanWidth ">9</span>
+                            </div>
+                            <div class=" g-col-12 g-col-xl-6 d-flex align-self-center ">
+                                <label for=" use-edgeDetection " class=" text-nowrap mb-0"">
+                                                    <input type="checkbox" id="use-edgeDetection" name="use-edgeDetection">Edge Detection
+                                                </label>
+                                                <input type="range" id="edgeIntensity" name="edgeIntensity" min="0" max="2" value="1" step="0.1" class="custom-range flex-fill mx-2" disabled>
+                                                <span id="edgeIntensity-value" class="spanWidth">1</span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="asciiScale" class="text-nowrap mb-0"">ASCII gradient</label>
+                                <select id=" asciiScale " class=" form-control form-control-sm ml-2 ">
+                                    <option value=" alphabetic ">Alphabetic</option>
+                                    <option value=" alphanumeric ">Alphanumeric</option>
+                                    <option value=" arrow ">Arrow</option>
+                                    <option value=" codepage437 ">Code Page 437</option>
+                                    <option value=" extended ">Extended High</option>
+                                    <option value=" grayscale ">Gray Scale</option>
+                                    <option value=" minimalist ">Minimalist</option>
+                                    <option value=" math ">Math Symbols</option>
+                                    <option value=" normal " selected>Normal</option>
+                                    <option value=" normal2 ">Normal 2</option>
+                                    <option value=" numerical ">Numerical</option>
+                                    <option value=" max ">Max</option>
+                                    <option value=" blockelement ">Black and White</option>
+                                </select>
+                            </div>
+                            <div class=" g-col-12 g-col-xl-6 d-flex align-self-center ">
+                                <label for=" spaceDensity " class=" text-nowrap mb-0"">Space Density</label>
+                                                <input type="range" id="spaceDensity" name="spaceDensity" min="0" max="40" value="1" class="custom-range flex-fill mx-2">
+                                                <span id="spaceDensity-value" class="spanWidth">1</span>
+                                            </div>
+                                            <div class="g-col-12 g-col-xl-6 d-flex align-self-center">
+                                                <label for="dithering" class="text-nowrap mb-0"">Quality Enhancements</label>
+                                <select id=" dithering " class=" form-control form-control-sm ml-2 ">
+                                    <option value=" none " selected>None</option>
+                                    <option value=" FloydSteinberg ">Floyd-Steinberg</option>
+                                    <option value=" JJN ">Jarvis, Judice och Ninke (JJN)</option>
+                                    <option value=" Stucki ">Stucki Dithering</option>
+                                    <option value=" Atkinson ">Atkinson Dithering</option>
+                                </select>
+                            </div>
+                            <div class=" g-col-12 g-col-xl-6 d-flex align-self-center ">
+                                <label for=" transparentFrame " class=" text-nowrap mb-0"">Transparent frame</label>
+                                                <input type="range" id="transparentFrame" name="transparentFrame" min="0" max="10" value="0" class="custom-range flex-fill mx-2">
+                                                <span class="spanWidth">
+                                                    <span id="transparentFrame-value">0</span>
+                                                    px
+                                                </span>
+                                            </div>
+                                            <div class="g-col-12 pt-4 text-center">
+                                                <button id="btn-clipboard" class="btn btn-primary mb-0 mb-md-2" data-clipboard-target="#output" style="width: 165px;">Copy to Clipboard</button>
+                                                <button id="saveAscii" class="btn btn-primary mb-0 mb-md-2">
+                                                    <span class="d-none d-lg-inline-block">Save ASCII Art</span>
+                                                    <span class="d-lg-none">Txt</span>
+                                                </button>
+                                                <button id="saveAsPng" class="btn btn-primary mb-0 mb-md-2">
+                                                    <span class="d-none d-lg-inline-block">Save as PNG</span>
+                                                    <span class="d-lg-none">PNG</span>
+                                                </button>
+                                                <button id="reset-filters" class="btn btn-primary mb-0 mb-md-2">
+                                                    <span class="d-none d-lg-inline-block">Reset Filters</span>
+                                                    <span class="d-lg-none">Reset</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <pre id="output"></pre>
+                            </div>
+                            <div class="bg-header border border-header rounded p-1 p-sm-3 mt-3" role="alert">The ASCII Art generated from 'Image to ASCII Art' is free to use for any purpose, including personal and commercial projects. No attribution is required. However, if you find the tool useful and would like to support us, we'd appreciate a link back or a mention to help spread the word!</div>
+                            <div class="text-center mt-4">
+                                <button class="btn btn-primary text-white px-4" disabled>Open the image in ASCII Draw Studio</button>
+                            </div>
+                            <div class="text-center mt-3">
+                                <a href="/text-to-ascii-art" class="btn btn-primary text-white px-4">Convert Text to ASCII Art</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col col-md-10 col-lg-8">
+                            <div class="p-2 p-md-3 bg-body-tertiary border rounded-3 my-2">
+                                <div class="help-guide">
+                                    <h2 class="h3">User Settings Guide</h2>
+                                    <p>This guide serves as a roadmap to the extensive customization options available in our Image to ASCII Art tool. Designed with both functionality and user experience in mind, the tool offers a range of settings that span basic image adjustments to advanced ASCII art configurations. Whether you're looking to fine-tune brightness and contrast or delve into advanced features like thresholding and edge detection, this tool provides the granular control you need. Read on to understand how each setting can be manipulated to achieve your desired artistic outcome.</p>
+                                    <h3 class="h5">Basic Image Settings:</h3>
+                                    <ul>
+                                        <li>
+                                            <b>Characters:</b>
+                                            This setting controls the number of characters used in your ASCII art. A higher number will result in more detail.
+                                        </li>
+                                        <li>
+                                            <b>Brightness:</b>
+                                            Use this slider to adjust the brightness of your image, making it either lighter or darker.
+                                        </li>
+                                        <li>
+                                            <b>Contrast:</b>
+                                            This setting enhances or reduces the contrast between the light and dark areas of your image.
+                                        </li>
+                                        <li>
+                                            <b>Saturation:</b>
+                                            Control the color intensity with this setting. A higher percentage will make the colors more vibrant.
+                                        </li>
+                                        <li>
+                                            <b>Hue:</b>
+                                            Change the overall color tint of your image by adjusting the hue angle.
+                                        </li>
+                                    </ul>
+                                    <h3 class="h5">Advanced Image Settings:</h3>
+                                    <ul>
+                                        <li>
+                                            <b>Thresholding:</b>
+                                            This setting defines the threshold for what is considered light or dark, helping to enhance the image's outline.
+                                        </li>
+                                        <li>
+                                            <b>Sharpness:</b>
+                                            Use this to adjust the sharpness of your image, making it either crisper or softer.
+                                        </li>
+                                        <li>
+                                            <b>Edge Detection:</b>
+                                            This feature highlights the edges within your image, making the details more prominent.
+                                        </li>
+                                    </ul>
+                                    <h3 class="h5">ASCII Customization:</h3>
+                                    <ul>
+                                        <li>
+                                            <b>ASCII Gradient:</b>
+                                            Choose from different gradient styles to change how the ASCII characters appear.
+                                        </li>
+                                        <li>
+                                            <b>Space Density:</b>
+                                            This setting controls the density of spaces between ASCII characters, allowing for different styles.
+                                        </li>
+                                        <li>
+                                            <b>Quality Enhancements:</b>
+                                            Select from additional settings to improve the overall quality of your ASCII art.
+                                        </li>
+                                        <li>
+                                            <b>Transparent Frame:</b>
+                                            Add a transparent frame to your ASCII art to enhance its presentation.
+                                        </li>
+                                    </ul>
+                                    <h3 class="h5">Actions:</h3>
+                                    <ul>
+                                        <li>
+                                            <b>Copy to Clipboard:</b>
+                                            Click this button to copy your ASCII art to the clipboard, making it easy to share.
+                                        </li>
+                                        <li>
+                                            <b>Save as PNG:</b>
+                                            Use this option to save your ASCII art as a PNG image file.
+                                        </li>
+                                        <li>
+                                            <b>Save as ASCII Art:</b>
+                                            This allows you to save your ASCII art as a text file, which you can edit later.
+                                        </li>
+                                        <li>
+                                            <b>Reset Filter:</b>
+                                            If you wish to start over, click this button to reset all settings to their default values.
+                                        </li>
+                                    </ul>
+                                    Feel free to explore these features to create your own unique ASCII art!
+                
+                                </div>
+                            </div>
+                            <h2 class="h4 mt-5">Acknowledgments and credits</h2>
+                            For our "Image to ASCII Art" tool, we extend our thanks to the developers of <a href="https://clipboardjs.com/">ClipboardJS</a>
+                            for their outstanding library, which greatly enhances the functionality of our tool. This project, like our others, is built with a combination of JavaScript and <a href="https://getbootstrap.com/">Bootstrap</a>
+                            , ensuring a high-quality, user-focused experience. We've carefully developed this tool without relying on external code libraries beyond what's mentioned, focusing on innovative and practical solutions. Our team takes pride in offering tools that are both sophisticated and easy to use, and we hope you find this one to be a valuable asset in your creative toolkit.
+        
+                        </div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+                    <script>
+                        class ImageToASCII {
+                            constructor(t=100, e="normal", i=100, s=100, h=0, a=9, r=!1, n=100, l=0, d=0, o=0, p="none", g="none", c=128, _=1, $=!1, u=1, y=0) {
+                                this.width = t,
+                                this.brightness = i,
+                                this.contrast = s,
+                                this.invert = h,
+                                this.sharpness = a,
+                                this.useSharpen = r,
+                                this.saturation = n,
+                                this.sepia = l,
+                                this.hue = d,
+                                this.grayscale = o,
+                                this.dithering = p,
+                                this.thresholdType = g,
+                                this.thresholdOffset = c,
+                                this.invertEdgeColors = !0,
+                                this.edgeIntensity = _,
+                                this.useEdgeDetection = $,
+                                this.spaceDensity = u,
+                                this.transparentFrame = y,
+                                this.outputDiv = document.getElementById("output"),
+                                this.asciiChars = {
+                                    minimalist: "#+-.",
+                                    normal: "@%#*+=-:.",
+                                    normal2: "&$Xx+;:.",
+                                    alphabetic: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                                    alphanumeric: "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz",
+                                    numerical: "0896452317",
+                                    extended: "@%#{}[]()<>^*+=~-:.",
+                                    math: "+-\xd7\xf7=≠≈∞√π",
+                                    arrow: "↑↗→↘↓↙←↖",
+                                    grayscale: "@$BWM#*oahkbdpwmZO0QCJYXzcvnxrjft/|()1{}[]-_+~<>i!lI;:,\"^`'.",
+                                    max: "\xc6\xd1\xcaŒ\xd8M\xc9\xcb\xc8\xc3\xc2WQB\xc5\xe6#N\xc1\xfeE\xc4\xc0HKRŽœXg\xd0\xeaq\xdbŠ\xd5\xd4A€\xdfpm\xe3\xe2G\xb6\xf8\xf0\xe98\xda\xdc$\xebd\xd9\xfd\xe8\xd3\xde\xd6\xe5\xff\xd2b\xa5FD\xf1\xe1ZP\xe4š\xc7\xe0h\xfb\xa7\xddkŸ\xaeS9žUTe6\xb5Oyx\xce\xbef4\xf55\xf4\xfa&a\xfc™2\xf9\xe7w\xa9Y\xa30V\xcdL\xb13\xcf\xcc\xf3C@n\xf6\xf2s\xa2u‰\xbd\xbc‡zJƒ%\xa4Itoc\xeerjv1l\xed=\xef\xec<>i7†[\xbf?\xd7}*{+()/\xbb\xab•\xac|!\xa1\xf7\xa6\xaf—^\xaa„”“~\xb3\xba\xb2–\xb0\xad\xb9‹›;:’‘‚’˜ˆ\xb8…\xb7\xa8\xb4`",
+                                    codepage437: "█▓▒░",
+                                    blockelement: "█"
+                                },
+                                this.currentScale = e
+                            }
+                            convert(t) {
+                                let e = document.createElement("canvas")
+                                  , i = e.getContext("2d", {
+                                    willReadFrequently: !0
+                                })
+                                  , s = t.width / t.height
+                                  , h = this.width
+                                  , a = Math.floor(.55 * Math.floor(h / s));
+                                e.width = h + 2 * this.transparentFrame,
+                                e.height = a + 2 * this.transparentFrame,
+                                this.transparentFrame > 0 && (i.fillStyle = "rgba(0, 0, 0, 0)",
+                                i.fillRect(0, 0, h + 2 * this.transparentFrame, a + 2 * this.transparentFrame)),
+                                i.filter = `brightness(${this.brightness}%)`,
+                                i.filter += ` contrast(${this.contrast}%)`,
+                                i.filter += ` saturate(${this.saturation}%)`,
+                                i.filter += ` sepia(${this.sepia}%)`,
+                                i.filter += ` hue-rotate(${this.hue}deg)`,
+                                i.filter += ` grayscale(${this.grayscale}%)`,
+                                i.filter += ` invert(${this.invert}%)`,
+                                i.drawImage(t, this.transparentFrame, this.transparentFrame, h - 2 * this.transparentFrame, a - 2 * this.transparentFrame),
+                                this.useEdgeDetection && this.applyEdgeDetection(i, e),
+                                this.useSharpen && this.applySharpen(i, e, this.sharpness);
+                                let r = i.getImageData(0, 0, this.width, a)
+                                  , n = r.data;
+                                "simply" === this.thresholdType && this.applySimpleThresholding(n, h, a, this.thresholdOffset);
+                                let l = "";
+                                for (let d = 0; d < a; d++) {
+                                    for (let o = 0; o < h; o++) {
+                                        let p = (d * h + o) * 4
+                                          , g = n[p]
+                                          , c = n[p + 1]
+                                          , _ = n[p + 2]
+                                          , $ = n[p + 3];
+                                        if ($ < 16) {
+                                            l += " ";
+                                            continue
+                                        }
+                                        let u = .3 * g + .59 * c + .11 * _;
+                                        "FloydSteinberg" === this.dithering ? u = this.applyFloydSteinbergDithering(o, d, u, h, n) : "JJN" === this.dithering ? u = this.applyJJNDithering(o, d, u, h, n) : "Stucki" === this.dithering ? u = this.applyStuckiDithering(o, d, u, h, n) : "Atkinson" === this.dithering && (u = this.applyAtkinsonDithering(o, d, u, h, n));
+                                        let y = this.getAsciiChar(u);
+                                        l += y
+                                    }
+                                    l += "\n"
+                                }
+                                this.outputDiv.textContent = l;
+                                let C = document.getElementById("image-preview")
+                                  , f = C.getContext("2d", {
+                                    willReadFrequently: !0
+                                })
+                                  , v = 300 - 2 * this.transparentFrame
+                                  , F = Math.floor(v / s) - 2 * this.transparentFrame;
+                                if (C.width = v + 2 * this.transparentFrame,
+                                C.height = F + 2 * this.transparentFrame,
+                                this.transparentFrame > 0 && (i.fillStyle = "rgba(0, 0, 0, 0)",
+                                i.fillRect(0, 0, v + 2 * this.transparentFrame, F + 2 * this.transparentFrame)),
+                                f.filter = i.filter,
+                                f.drawImage(t, this.transparentFrame, this.transparentFrame, v, F),
+                                this.useEdgeDetection && this.applyEdgeDetection(f, C),
+                                this.useSharpen && this.applySharpen(f, C, this.sharpness),
+                                "simply" === this.thresholdType) {
+                                    let I = f.getImageData(0, 0, v, F)
+                                      , m = I.data;
+                                    this.applySimpleThresholding(m, v, F, this.thresholdOffset),
+                                    f.putImageData(I, 0, 0)
+                                }
+                            }
+                            applyEdgeDetection(t, e) {
+                                let i = t.getImageData(0, 0, e.width, e.height)
+                                  , s = i.data
+                                  , h = i.width
+                                  , a = i.height
+                                  , r = new Uint8ClampedArray(s.length)
+                                  , n = [-1, 0, 1, -2, 0, 2, -1, 0, 1]
+                                  , l = [-1, -2, -1, 0, 0, 0, 1, 2, 1];
+                                for (let d = 0; d < a; d++)
+                                    for (let o = 0; o < h; o++) {
+                                        let p = 0
+                                          , g = 0;
+                                        if (0 === o || 0 === d || o === h - 1 || d === a - 1) {
+                                            let c = (d * h + o) * 4;
+                                            r[c] = r[c + 1] = r[c + 2] = 255,
+                                            r[c + 3] = 255;
+                                            continue
+                                        }
+                                        for (let _ = -1; _ <= 1; _++)
+                                            for (let $ = -1; $ <= 1; $++) {
+                                                let u = ((d + _) * h + (o + $)) * 4
+                                                  , y = .3 * s[u] + .59 * s[u + 1] + .11 * s[u + 2];
+                                                p += y * n[(_ + 1) * 3 + ($ + 1)],
+                                                g += y * l[(_ + 1) * 3 + ($ + 1)]
+                                            }
+                                        let C = Math.sqrt(p * p + g * g) * this.edgeIntensity | 0
+                                          , f = this.invertEdgeColors ? 255 - C : C
+                                          , v = (d * h + o) * 4;
+                                        r[v] = r[v + 1] = r[v + 2] = f,
+                                        r[v + 3] = 255
+                                    }
+                                let F = new ImageData(r,h,a);
+                                t.putImageData(F, 0, 0)
+                            }
+                            applySimpleThresholding(t, e, i, s) {
+                                for (let h = 0; h < i; h++)
+                                    for (let a = 0; a < e; a++) {
+                                        let r = (h * e + a) * 4
+                                          , n = .3 * t[r] + .59 * t[r + 1] + .11 * t[r + 2];
+                                        n < s ? t[r] = t[r + 1] = t[r + 2] = 0 : t[r] = t[r + 1] = t[r + 2] = 255
+                                    }
+                            }
+                            applyFloydSteinbergDithering(t, e, i, s, h) {
+                                let a = Math.round(i / 255 * 14) / 14 * 255
+                                  , r = i - a;
+                                for (let {dx: n, dy: l, weight: d} of [{
+                                    dx: 1,
+                                    dy: 0,
+                                    weight: 7 / 16
+                                }, {
+                                    dx: -1,
+                                    dy: 1,
+                                    weight: 3 / 16
+                                }, {
+                                    dx: 0,
+                                    dy: 1,
+                                    weight: 5 / 16
+                                }, {
+                                    dx: 1,
+                                    dy: 1,
+                                    weight: 1 / 16
+                                }, ]) {
+                                    let o = ((e + l) * s + (t + n)) * 4;
+                                    o >= 0 && o < h.length && (h[o] += r * d)
+                                }
+                                return a
+                            }
+                            applyJJNDithering(t, e, i, s, h) {
+                                let a = Math.round(i / 255 * 14) / 14 * 255
+                                  , r = i - a;
+                                for (let {dx: n, dy: l, weight: d} of [{
+                                    dx: 1,
+                                    dy: 0,
+                                    weight: 7 / 48
+                                }, {
+                                    dx: 2,
+                                    dy: 0,
+                                    weight: 5 / 48
+                                }, {
+                                    dx: -2,
+                                    dy: 1,
+                                    weight: 3 / 48
+                                }, {
+                                    dx: -1,
+                                    dy: 1,
+                                    weight: 5 / 48
+                                }, {
+                                    dx: 0,
+                                    dy: 1,
+                                    weight: 7 / 48
+                                }, {
+                                    dx: 1,
+                                    dy: 1,
+                                    weight: 5 / 48
+                                }, {
+                                    dx: 2,
+                                    dy: 1,
+                                    weight: 3 / 48
+                                }, {
+                                    dx: -2,
+                                    dy: 2,
+                                    weight: 1 / 48
+                                }, {
+                                    dx: -1,
+                                    dy: 2,
+                                    weight: 3 / 48
+                                }, {
+                                    dx: 0,
+                                    dy: 2,
+                                    weight: 5 / 48
+                                }, {
+                                    dx: 1,
+                                    dy: 2,
+                                    weight: 3 / 48
+                                }, {
+                                    dx: 2,
+                                    dy: 2,
+                                    weight: 1 / 48
+                                }, ]) {
+                                    let o = ((e + l) * s + (t + n)) * 4;
+                                    o >= 0 && o < h.length && (h[o] += r * d)
+                                }
+                                return a
+                            }
+                            applyStuckiDithering(t, e, i, s, h) {
+                                let a = Math.round(i / 255 * 14) / 14 * 255
+                                  , r = i - a;
+                                for (let {dx: n, dy: l, weight: d} of [{
+                                    dx: 1,
+                                    dy: 0,
+                                    weight: 8 / 42
+                                }, {
+                                    dx: 2,
+                                    dy: 0,
+                                    weight: 4 / 42
+                                }, {
+                                    dx: -2,
+                                    dy: 1,
+                                    weight: 2 / 42
+                                }, {
+                                    dx: -1,
+                                    dy: 1,
+                                    weight: 4 / 42
+                                }, {
+                                    dx: 0,
+                                    dy: 1,
+                                    weight: 8 / 42
+                                }, {
+                                    dx: 1,
+                                    dy: 1,
+                                    weight: 4 / 42
+                                }, {
+                                    dx: 2,
+                                    dy: 1,
+                                    weight: 2 / 42
+                                }, {
+                                    dx: -2,
+                                    dy: 2,
+                                    weight: 1 / 42
+                                }, {
+                                    dx: -1,
+                                    dy: 2,
+                                    weight: 2 / 42
+                                }, {
+                                    dx: 0,
+                                    dy: 2,
+                                    weight: 4 / 42
+                                }, {
+                                    dx: 1,
+                                    dy: 2,
+                                    weight: 2 / 42
+                                }, {
+                                    dx: 2,
+                                    dy: 2,
+                                    weight: 1 / 42
+                                }, ]) {
+                                    let o = ((e + l) * s + (t + n)) * 4;
+                                    o >= 0 && o < h.length && (h[o] += r * d)
+                                }
+                                return a
+                            }
+                            applyAtkinsonDithering(t, e, i, s, h) {
+                                let a = Math.round(i / 255 * 14) / 14 * 255
+                                  , r = i - a;
+                                for (let {dx: n, dy: l, weight: d} of [{
+                                    dx: 1,
+                                    dy: 0,
+                                    weight: 1 / 8
+                                }, {
+                                    dx: 2,
+                                    dy: 0,
+                                    weight: 1 / 8
+                                }, {
+                                    dx: -1,
+                                    dy: 1,
+                                    weight: 1 / 8
+                                }, {
+                                    dx: 0,
+                                    dy: 1,
+                                    weight: 1 / 8
+                                }, {
+                                    dx: 1,
+                                    dy: 1,
+                                    weight: 1 / 8
+                                }, {
+                                    dx: 0,
+                                    dy: 2,
+                                    weight: 1 / 8
+                                }, ]) {
+                                    let o = ((e + l) * s + (t + n)) * 4;
+                                    o >= 0 && o < h.length && (h[o] += r * d)
+                                }
+                                return a
+                            }
+                            applySharpen(t, e, i) {
+                                let s = t.getImageData(0, 0, e.width, e.height)
+                                  , h = s.data
+                                  , a = s.width
+                                  , r = [-1, -1, -1, -1, i, -1, -1, -1, -1]
+                                  , n = r.length
+                                  , l = Math.sqrt(n)
+                                  , d = Math.floor(l / 2)
+                                  , o = new Uint8ClampedArray(h.length);
+                                for (let p = 0; p < s.height; p++)
+                                    for (let g = 0; g < s.width; g++) {
+                                        let c = 0
+                                          , _ = 0
+                                          , $ = 0;
+                                        for (let u = 0; u < l; u++)
+                                            for (let y = 0; y < l; y++) {
+                                                let C = p + u - d
+                                                  , f = g + y - d;
+                                                if (C >= 0 && C < s.height && f >= 0 && f < s.width) {
+                                                    let v = (C * a + f) * 4;
+                                                    c += h[v] * r[u * l + y],
+                                                    _ += h[v + 1] * r[u * l + y],
+                                                    $ += h[v + 2] * r[u * l + y]
+                                                }
+                                            }
+                                        let F = (p * a + g) * 4;
+                                        o[F] = c,
+                                        o[F + 1] = _,
+                                        o[F + 2] = $,
+                                        o[F + 3] = h[F + 3]
+                                    }
+                                let I = new ImageData(o,s.width,s.height);
+                                t.putImageData(I, 0, 0)
+                            }
+                            getAsciiChar(t) {
+                                let e = this.asciiChars[this.currentScale] + " ".repeat(this.spaceDensity)
+                                  , i = Math.floor(t * (e.length - 1) / 255);
+                                return e[i]
+                            }
+                            getAsciiText() {
+                                return this.outputDiv.textContent
+                            }
+                            setAsciiWidth(t) {
+                                this.width = t
+                            }
+                            setScale(t) {
+                                this.asciiChars.hasOwnProperty(t) && (this.currentScale = t)
+                            }
+                            setDithering(t) {
+                                this.dithering = t
+                            }
+                            setBrightness(t) {
+                                this.brightness = t
+                            }
+                            setContrast(t) {
+                                this.contrast = t
+                            }
+                            setInvert(t) {
+                                this.invert = t
+                            }
+                            setSharpness(t) {
+                                this.sharpness = t
+                            }
+                            setUseSharpen(t) {
+                                this.useSharpen = t
+                            }
+                            setSaturation(t) {
+                                this.saturation = t
+                            }
+                            setSepia(t) {
+                                this.sepia = t
+                            }
+                            setHue(t) {
+                                this.hue = t
+                            }
+                            setGrayscale(t) {
+                                this.grayscale = t
+                            }
+                            setThresholdType(t) {
+                                this.thresholdType = t
+                            }
+                            setThresholdOffset(t) {
+                                this.thresholdOffset = t
+                            }
+                            setEdgeIntensity(t) {
+                                this.edgeIntensity = t
+                            }
+                            setEdgeDetection(t) {
+                                this.useEdgeDetection = t
+                            }
+                            setSpaceDensity(t) {
+                                this.spaceDensity = t
+                            }
+                            setTransparentFrame(t) {
+                                this.transparentFrame = t
+                            }
+                        }
+                        class ImageUploader {
+    constructor(dropAreaId, fileInputId, width = 100, scale = "normal", brightness = 100, contrast = 100, invert = 0, sharpness = 9, useSharpen = false, saturation = 100, sepia = 0, hue = 0, grayscale = 0, dithering = "none", thresholdType = "none", thresholdOffset = 128, edgeIntensity = 1, useEdgeDetection = false, spaceDensity = 1, transparentFrame = 0) {
+        this.dropArea = document.getElementById(dropAreaId);
+        this.fileInput = document.getElementById(fileInputId);
+        this.asciiConverter = new ImageToASCII(width, scale, brightness, contrast, invert, sharpness, useSharpen, saturation, sepia, hue, grayscale, dithering, thresholdType, thresholdOffset, edgeIntensity, useEdgeDetection, spaceDensity, transparentFrame);
+        this.lastFile = null;
+        this.img = null;
+        this.init();
+    }
+
+    init() {
+        ["dragenter", "dragover", "dragleave", "drop"].forEach(eventName => {
+            this.dropArea.addEventListener(eventName, this.preventDefaults, false);
+        });
+
+        ["dragenter", "dragover"].forEach(eventName => {
+            this.dropArea.addEventListener(eventName, this.highlight.bind(this), false);
+        });
+
+        ["dragleave", "drop"].forEach(eventName => {
+            this.dropArea.addEventListener(eventName, this.unhighlight.bind(this), false);
+        });
+
+        this.dropArea.addEventListener("drop", this.handleDrop.bind(this), false);
+        this.dropArea.addEventListener("click", this.openFileChooser.bind(this), false);
+        this.fileInput.addEventListener("change", (event) => this.handleFiles(event.target.files), false);
+    }
+
+    preventDefaults(event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+
+    highlight() {
+        this.dropArea.classList.add("highlight");
+    }
+
+    unhighlight() {
+        this.dropArea.classList.remove("highlight");
+    }
+
+    handleDrop(event) {
+        let files = event.dataTransfer.files;
+        this.handleFiles(files);
+    }
+
+    handleFiles(files) {
+        if (files && files.length > 0) {
+            this.lastFile = files[0];
+            this.uploadAndConvertToASCII(this.lastFile);
+        }
+    }
+
+    uploadAndConvertToASCII(file) {
+        if (file instanceof File) {
+            let reader = new FileReader();
+            reader.onload = (event) => {
+                let img = new Image();
+                img.onload = () => {
+                    this.asciiConverter.convert(img);
+                };
+                img.src = event.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+
+    openFileChooser() {
+        this.fileInput.click();
+    }
+
+    // Métodos para actualizar las propiedades del conversor ASCII
+    updateAsciiScale(scale) {
+        this.asciiConverter.setScale(scale);
+        if (this.lastFile) {
+            this.uploadAndConvertToASCII(this.lastFile);
+        }
+    }
+
+    updateDithering(dithering) {
+        this.asciiConverter.setDithering(dithering);
+        if (this.lastFile) {
+            this.uploadAndConvertToASCII(this.lastFile);
+        }
+    }
+                            updateAsciiWidth(t) {
+                                this.asciiConverter.setAsciiWidth(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateBrightness(t) {
+                                this.asciiConverter.setBrightness(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateContrast(t) {
+                                this.asciiConverter.setContrast(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateInvert(t) {
+                                this.asciiConverter.setInvert(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateSharpness(t) {
+                                this.asciiConverter.setSharpness(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateUseSharpen(t) {
+                                this.asciiConverter.setUseSharpen(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateSaturation(t) {
+                                this.asciiConverter.setSaturation(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateSepia(t) {
+                                this.asciiConverter.setSepia(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateHue(t) {
+                                this.asciiConverter.setHue(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateGrayscale(t) {
+                                this.asciiConverter.setGrayscale(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateThresholdType(t) {
+                                this.asciiConverter.setThresholdType(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateThresholdOffset(t) {
+                                this.asciiConverter.setThresholdOffset(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateEdgeIntensity(t) {
+                                this.asciiConverter.setEdgeIntensity(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateEdgeDetection(t) {
+                                this.asciiConverter.setEdgeDetection(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateSpaceDensity(t) {
+                                this.asciiConverter.setSpaceDensity(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                            updateTransparentFrame(t) {
+                                this.asciiConverter.setTransparentFrame(t),
+                                this.lastFile && this.uploadAndConvertToASCII(this.lastFile)
+                            }
+                        }
+                        class AsciiExport {
+                            constructor(t) {
+                                this.asciiText = t
+                            }
+                            saveAsTextFile() {
+                                let t = new Blob([this.asciiText],{
+                                    type: "text/plain"
+                                })
+                                  , e = URL.createObjectURL(t)
+                                  , i = document.createElement("a");
+                                i.href = e,
+                                i.download = "ascii-art.txt",
+                                document.body.appendChild(i),
+                                i.click(),
+                                document.body.removeChild(i),
+                                URL.revokeObjectURL(e)
+                            }
+                            saveAsPng(t=12) {
+                                let e = document.createElement("canvas")
+                                  , i = e.getContext("2d")
+                                  , s = this.asciiText.split("\n");
+                                s.pop();
+                                let h = t
+                                  , a = (s.length - 1) * h + t;
+                                i.font = `${t}px monospace`;
+                                let r = i.measureText("A")
+                                  , n = r.width
+                                  , l = s.reduce((t,e)=>Math.max(t, e.length), 0)
+                                  , d = l * n;
+                                e.width = d,
+                                e.height = a,
+                                i.font = `${t}px monospace`,
+                                i.fillStyle = "white",
+                                i.fillRect(0, 0, d, a),
+                                i.fillStyle = "black",
+                                s.forEach((t,e)=>{
+                                    i.fillText(t, 0, (e + 1) * h)
+                                }
+                                );
+                                let o = e.toDataURL("image/png")
+                                  , p = document.createElement("a");
+                                p.href = o,
+                                p.download = "ascii-art.png",
+                                document.body.appendChild(p),
+                                p.click(),
+                                document.body.removeChild(p)
+                            }
+                        }
+
+                        window.addEventListener("DOMContentLoaded", e=>{
+                            let t = document.getElementById("image-preview")
+                              , n = t.getContext("2d");
+                            t.width = 300,
+                            t.height = 40,
+                            n.font = "20px Arial",
+                            n.textAlign = "center",
+                            n.fillText("No image", t.width / 2, 26);
+                            let a = document.getElementById("asciiWidth")
+                              , d = document.getElementById("asciiWidthValue")
+                              , l = parseInt(a.value, 10)
+                              , i = document.getElementById("asciiScale")
+                              , s = i.value
+                              , u = document.getElementById("dithering")
+                              , r = u.value
+                              , p = document.getElementById("brightness")
+                              , v = document.getElementById("brightnessValue")
+                              , g = parseInt(p.value, 10)
+                              , o = document.getElementById("contrast")
+                              , $ = document.getElementById("contrastValue")
+                              , E = parseInt(o.value, 10)
+                              , c = document.getElementById("saturation")
+                              , y = document.getElementById("saturation-value")
+                              , h = 100
+                              , _ = document.getElementById("sepia")
+                              , I = document.getElementById("sepia-value")
+                              , m = 0
+                              , C = document.getElementById("hue")
+                              , B = document.getElementById("hue-value")
+                              , x = 0
+                              , L = document.getElementById("grayscale")
+                              , b = document.getElementById("grayscale-value")
+                              , T = 0
+                              , S = document.getElementById("invert")
+                              , f = document.getElementById("invert-value")
+                              , A = 0
+                              , k = document.getElementById("edgeIntensity")
+                              , D = document.getElementById("edgeIntensity-value")
+                              , w = 1
+                              , F = document.getElementById("spaceDensity")
+                              , O = document.getElementById("spaceDensity-value")
+                              , H = 1
+                              , W = document.getElementById("transparentFrame")
+                              , M = document.getElementById("transparentFrame-value")
+                              , U = 0
+                              , V = document.getElementById("thresholdOffset")
+                              , G = document.getElementById("thresholdOffset-value")
+                              , P = 0
+                              , N = document.getElementById("use-sharpen")
+                              , j = !1
+                              , q = document.getElementById("use-threshold")
+                              , z = !1
+                              , J = document.getElementById("use-edgeDetection")
+                              , K = !1
+                              , Q = document.getElementById("sharpness")
+                              , R = document.getElementById("sharpness-value")
+                              , X = 9
+                              , Y = new ImageUploader("drop-area","fileElem",l,s,g,E,A,X,j)
+                              , Z = document.getElementById("reset-filters");
+                            Z.addEventListener("click", ()=>{
+                                a.value = 100,
+                                d.textContent = 100,
+                                p.value = 100,
+                                v.textContent = 100,
+                                o.value = 100,
+                                $.textContent = 100,
+                                c.value = 100,
+                                y.textContent = 100,
+                                _.value = 0,
+                                I.textContent = 0,
+                                C.value = 0,
+                                B.textContent = 0,
+                                L.value = 0,
+                                b.textContent = 0,
+                                S.value = 0,
+                                f.textContent = 0,
+                                F.value = 1,
+                                O.textContent = 1,
+                                W.value = 0,
+                                M.textContent = 0,
+                                Q.value = 9,
+                                Q.disabled = !0,
+                                R.textContent = 9,
+                                N.checked = !1,
+                                u.value = "none",
+                                q.checked = !1,
+                                V.value = 128,
+                                V.disabled = !0,
+                                G.textContent = 128,
+                                J.checked = !1,
+                                k.value = 1,
+                                k.disabled = !0,
+                                D.textContent = 1,
+                                Y.updateAsciiWidth(100),
+                                Y.updateBrightness(100),
+                                Y.updateContrast(100),
+                                Y.updateSharpness(9),
+                                Y.updateUseSharpen(!1),
+                                Y.updateSaturation(100),
+                                Y.updateSepia(0),
+                                Y.updateHue(0),
+                                Y.updateGrayscale(0),
+                                Y.updateInvert(0),
+                                Y.updateThresholdType("none"),
+                                Y.updateEdgeDetection(!1),
+                                Y.updateEdgeIntensity(1),
+                                Y.updateSpaceDensity(1),
+                                Y.updateTransparentFrame(0),
+                                Y.lastFile && Y.uploadAndConvertToASCII(Y.lastFile)
+                            }
+                            );
+                            let ee = document.getElementById("saveAscii");
+                            ee.addEventListener("click", ()=>{
+                                let e = Y.asciiConverter.getAsciiText()
+                                  , t = new AsciiExport(e);
+                                t.saveAsTextFile()
+                            }
+                            );
+                            let et = document.getElementById("saveAsPng");
+                            et.addEventListener("click", ()=>{
+                                let e = Y.asciiConverter.getAsciiText()
+                                  , t = new AsciiExport(e);
+                                t.saveAsPng()
+                            }
+                            ),
+                            a.addEventListener("input", ()=>{
+                                l = parseInt(a.value, 10),
+                                d.textContent = l,
+                                Y.updateAsciiWidth(l)
+                            }
+                            ),
+                            i.addEventListener("change", ()=>{
+                                s = i.value,
+                                Y.updateAsciiScale(s)
+                            }
+                            ),
+                            u.addEventListener("change", ()=>{
+                                r = u.value,
+                                Y.updateDithering(r)
+                            }
+                            ),
+                            p.addEventListener("input", ()=>{
+                                g = parseInt(p.value, 10),
+                                v.textContent = g,
+                                Y.updateBrightness(g)
+                            }
+                            ),
+                            o.addEventListener("input", ()=>{
+                                E = parseInt(o.value, 10),
+                                $.textContent = E,
+                                Y.updateContrast(E)
+                            }
+                            ),
+                            Q.addEventListener("input", e=>{
+                                X = e.target.value,
+                                R.textContent = X,
+                                Y.updateSharpness(X)
+                            }
+                            ),
+                            N.addEventListener("change", e=>{
+                                (j = e.target.checked) ? Q.disabled = !1 : (Q.disabled = !0,
+                                Q.value = 9,
+                                R.textContent = 9,
+                                Y.updateSharpness(9)),
+                                Y.updateUseSharpen(j)
+                            }
+                            ),
+                            J.addEventListener("change", e=>{
+                                (K = e.target.checked) ? k.disabled = !1 : (k.disabled = !0,
+                                k.value = 1,
+                                D.textContent = 1,
+                                Y.updateEdgeIntensity(1)),
+                                Y.updateEdgeDetection(K)
+                            }
+                            ),
+                            c.addEventListener("input", e=>{
+                                h = e.target.value,
+                                y.textContent = h,
+                                Y.updateSaturation(h)
+                            }
+                            ),
+                            _.addEventListener("input", e=>{
+                                m = e.target.value,
+                                I.textContent = m,
+                                Y.updateSepia(m)
+                            }
+                            ),
+                            C.addEventListener("input", e=>{
+                                x = e.target.value,
+                                B.textContent = x,
+                                Y.updateHue(x)
+                            }
+                            ),
+                            L.addEventListener("input", e=>{
+                                T = e.target.value,
+                                b.textContent = T,
+                                Y.updateGrayscale(T)
+                            }
+                            ),
+                            S.addEventListener("input", e=>{
+                                A = e.target.value,
+                                f.textContent = A,
+                                Y.updateInvert(A)
+                            }
+                            ),
+                            V.addEventListener("input", e=>{
+                                P = e.target.value,
+                                G.textContent = P,
+                                Y.updateThresholdOffset(P)
+                            }
+                            ),
+                            k.addEventListener("input", e=>{
+                                w = e.target.value,
+                                D.textContent = w,
+                                Y.updateEdgeIntensity(w)
+                            }
+                            ),
+                            F.addEventListener("input", e=>{
+                                H = e.target.value,
+                                O.textContent = H,
+                                Y.updateSpaceDensity(H)
+                            }
+                            ),
+                            W.addEventListener("input", e=>{
+                                U = e.target.value,
+                                M.textContent = U,
+                                Y.updateTransparentFrame(U)
+                            }
+                            ),
+                            q.addEventListener("change", e=>{
+                                (z = e.target.checked) ? (V.disabled = !1,
+                                Y.updateThresholdType("simply")) : (V.disabled = !0,
+                                V.value = 128,
+                                G.textContent = 128,
+                                Y.updateThresholdType("none"),
+                                Y.updateThresholdOffset(128)),
+                                Y.updateUseSharpen(j)
+                            }
+                            )
+                        }
+                        );
+                        var clipboard = new ClipboardJS(".btn");
+                        clipboard.on("success", function(e) {
+                            let t = document.getElementById("btn-clipboard");
+                            t.innerHTML = "Copied!",
+                            setTimeout(function() {
+                                t.innerHTML = "Copy to Clipboard"
+                            }, 500),
+                            e.clearSelection()
+                        });
+                    </script>
+                    <footer class="footer text-center mt-5">
+                        <hr class="border-header border-top my-1" style="max-width: 800px;">
+                        <small class="d-inline d-lg-block">The ASCII art of this website has been created by many different artists and credit has been given where the artist is known.</small>
+                        <small>If you use ASCII artwork from here, please do not remove the artists name/initials if they are present.</small>
+                        <nav class="nav justify-content-center flex-column flex-md-row mt-4">
+                            <a class="nav-item nav-link" href="/ascii-art-links">ASCII Art Links</a>
+                            <a class="nav-item nav-link" href="/link-to-us">Link To Us</a>
+                            <a class="nav-item nav-link" href="/cookie-policy">Cookie policy</a>
+                            <a class="nav-item nav-link" href="/privacy-policy">Privacy policy</a>
+                            <a class="nav-item nav-link" href="/terms-of-use">Terms of Use</a>
+                            <a class="nav-item nav-link change-consent" href="#" onclick="window.__tcfapi('displayConsentUi', 2, function() {} );return false;" tabindex="0" href="#">Consent</a>
+                            '
+    
+                        </nav>
+                        <div class="mt-4">
+                            Copyright &copy;2024 <a href="http://www.injosoft.se/">Injosoft</a>
+                            <span class="d-none d-sm-inline">. All Rights Reserved.</span>
+                        </div>
+                        <div class="social mt-4">
+                            <a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.asciiart.eu%2F" class="facebook">
+                                <span class="fa-layers fa-2x">
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fab fa-facebook-f fa-inverse" data-fa-transform="shrink-3.5 down-1.6 right-1.25"></i>
+                                </span>
+                            </a>
+                            <a href="http://twitter.com/share?url=https%3A%2F%2Fwww.asciiart.eu%2F&hashtags=ascii art" class="twitter">
+                                <span class="fa-layers fa-2x">
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fab fa-twitter fa-inverse" data-fa-transform="shrink-6 down-.25 right-.25"></i>
+                                </span>
+                            </a>
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.asciiart.eu%2F" class="linkedin">
+                                <span class="fa-layers fa-2x">
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fab fa-linkedin-in fa-inverse" data-fa-transform="shrink-7 right-.25"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <small>Be kind!</small>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <script src="/js/bsadmin.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#imageToASCII').addClass('sel');
+            });
+        </script>
+    </body>
+</html>

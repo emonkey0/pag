@@ -4,53 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "e5126a5dd542fc88",
+        "id": "107327e2ec81211e",
         "type": "tabs",
         "children": [
           {
-            "id": "f9fdcfe69c672cca",
+            "id": "6c8c2823bc14232c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "SCRUM.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.6.3"
               }
             }
           },
           {
-            "id": "7f690c9d623607ba",
+            "id": "d7cc2fdf420fbaa9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
-                "viewState": {
-                  "x": -10,
-                  "y": 180,
-                  "zoom": -0.5902606889779375
-                }
+                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md"
               }
             }
           },
           {
-            "id": "3181bc07a1d07d34",
+            "id": "91f5453928a07f47",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "Diseño/mockup/Main/HUB de articulos.canvas",
-                "viewState": {
-                  "x": -14,
-                  "y": -10.000000000000085,
-                  "zoom": -0.32112859636821023
-                }
+                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
+                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
+                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas"
+                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md"
               }
             }
           }
@@ -179,55 +167,58 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f690c9d623607ba",
+  "active": "91f5453928a07f47",
   "lastOpenFiles": [
-    "Diseño/mockup/Main/HUB de articulos.canvas",
+    "gestion tiempo/Glosario.md",
+    "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
+    "gestion tiempo/Excalidraw",
+    "gestion tiempo",
+    "Nueva carpeta/Blip/Insp. Web General/ss.png",
+    "Nueva carpeta/Blip/Insp. Web General/Media Player.png",
+    "Nueva carpeta/Blip/Insp. UI WEB/Search.png",
+    "Nueva carpeta/Blip/Insp. UI WEB/Search Results.png",
+    "Nueva carpeta/Blip/Insp. UI WEB/Screenshot_2.png",
+    "Nueva carpeta/Blip/Insp. UI WEB/Screenshot_1.png",
+    "Nueva carpeta/Blip/Insp. UI WEB/Landing.png",
+    "Nueva carpeta/Blip/insp. Thumnail post/Danii Post.md",
+    "Nueva carpeta/Blip/Insp. PosiblesIdeas/Sin título.md",
+    "Nueva carpeta/Blip/Insp. Imagenes General/Sin título.md",
+    "Nueva carpeta/Blip/Insp. Colores/Sin título.md",
+    "Nueva carpeta/Blip/Insp. Botones/Sin título.md",
+    "Nueva carpeta/Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
+    "Nueva carpeta/Blip/Imsp. Prompt/intento de general un scroll infinito de novato.txt",
+    "Nueva carpeta/Blip/Insp. Web General",
+    "Nueva carpeta/Blip/Insp. UI WEB",
+    "Nueva carpeta/Blip/insp. Thumnail post",
+    "Nueva carpeta/Blip/Insp. PosiblesIdeas",
+    "Nueva carpeta/Blip/Insp. Imagenes General",
+    "Nueva carpeta/Blip/Insp. Colores",
+    "Nueva carpeta/Blip/Insp. Botones",
+    "Nueva carpeta/Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
+    "Nueva carpeta/Material/pruebaportada uno.png",
+    "Nueva carpeta/Fases de desarrollo/Sin título.md",
+    "Nueva carpeta/Excalidraw/Drawing 2024-06-04 15.50.45.excalidraw.md",
+    "Nueva carpeta/Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
+    "Nueva carpeta/Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
+    "Nueva carpeta/Diseño/mockup/Main/HUB de articulos.canvas",
+    "Nueva carpeta/Diseño/Control de versiones/2. Articulo 1.md",
+    "Nueva carpeta/Diseño/5. Creador de post de usuario.md",
+    "Nueva carpeta/Diseño/4. Post de usuario.md",
+    "Nueva carpeta/Diseño/3. Panel de creacion de articulos.md",
+    "Nueva carpeta/Diseño/2. Articulo.md",
+    "Nueva carpeta/Diseño/1. Main.md",
+    "Nueva carpeta/TODO.md",
+    "Nueva carpeta/SCRUM.md",
+    "Nueva carpeta/README.md",
+    "Nueva carpeta/Organización del vault.md",
+    "Nueva carpeta/Tech/Screens/Main.md",
+    "Nueva carpeta/Tech/Hosting/Opciones.md",
+    "Nueva carpeta/Tech/DB/Datos.md",
+    "Nueva carpeta/Prototipo/Sin título.md",
+    "Nueva carpeta/Prototipo/Drawing 2024-05-31 13.21.58.excalidraw.md",
+    "Prototipo/Drawing 2024-05-31 13.21.58.excalidraw.md",
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
-    "Diseño/1. Main.md",
-    "Tech/Screens/Main.md",
-    "Tech/DB/Datos.md",
-    "Tech/Hosting/Opciones.md",
-    "SCRUM.md",
-    "README.md",
-    "Organización del vault.md",
-    "Fases de desarrollo/Sin título.md",
-    "Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
-    "TODO.md",
-    "Diseño/Control de versiones/2. Articulo 1.md",
-    "Diseño/4. Post de usuario.md",
-    "Diseño/3. Panel de creacion de articulos.md",
-    "Diseño/5. Creador de post de usuario.md",
-    "Diseño/2. Articulo.md",
-    "Excalidraw/Drawing 2024-05-20 20.49.53.excalidraw.md",
-    "Blip/Insp. Colores/Sin título.md",
-    "Blip/Insp. PosiblesIdeas/Sin título.md",
-    "Blip/Insp. UI WEB/Search Results.png",
-    "Blip/Insp. UI WEB/Screenshot_2.png",
-    "Blip/Insp. UI WEB/Screenshot_1.png",
-    "Blip/Insp. UI WEB/Landing.png",
-    "Blip/Insp. Web General/ss.png",
-    "Blip/Insp. Web General/Media Player.png",
-    "Blip/Insp. UI WEB/Search.png",
-    "Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
-    "Blip/insp. Thumnail post/Danii Post.md",
-    "Blip/Insp. Imagenes General/Sin título.md",
-    "Blip/Insp. Botones/Sin título.md",
-    "Material/pruebaportada uno.png",
-    "Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
-    "Blip/Imsp. Prompt/intento de general un scroll infinito de novato.txt",
-    "Blip/Imsp. Prompt/New Text Document.txt",
-    "Blip/Imsp. Prompt",
-    "Blip/New folder",
-    "Material/245-2457774_png-file-svg-swipe-left-transparent-icon.png.crdownload",
-    "Material/png-clipart-arrow-and-hand-art-computer-icons-finger-symbol-gesture-swipe-miscellaneous-text.png.crdownload",
-    "piña.ico",
-    "Blip/Insp. PosiblesIdeas",
-    "Blip/insp. Thumnail post/Drawing 2024-05-20 16.26.57.excalidraw.md",
-    "Blip/insp. Thumnail post",
-    "Excalidraw/Drawing 2024-05-20 16.11.39.excalidraw.md",
-    "Excalidraw",
-    "Blip/Excalidraw/Drawing 2024-05-20 16.11.33.excalidraw.md",
-    "Blip/draw/Excalidraw/Drawing 2024-05-20 16.11.10.excalidraw.md",
+    "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"
   ]
 }

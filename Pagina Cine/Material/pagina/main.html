@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convertidor de Imagen a ASCII</title>
+  <style>
+    #asciiArt {
+      font-family: monospace;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+  <input type="file" id="imageUpload" accept="image/*" />
+  <div id="asciiArt"></div>
+
+  <script>
+    const asciiChars = '@%#*+=-:. ';
+
+    function convertToAscii(image) {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      //canvas.width = image.width;
+      //canvas.height = image.height;
+      canvas.width = 250;
+      canvas.height = 500;
+      ctx.drawImage(image, 0, 0);
+
+      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      const pixels = imageData.data;
+      let asciiArt = '';
+
+      for (let y = 0; y < canvas.height; y += 2) {
+        for (let x = 0; x < canvas.width; x++) {
+          const index = (y * canvas.width + x) * 4;
+          const r = pixels[index];
+          const g = pixels[index + 1];
+          const b = pixels[index + 2];
+          const brightness = (r + g + b) / 3;
+
+          const charIndex = Math.floor(brightness / 256 * asciiChars.length);
+          asciiArt += asciiChars[charIndex];
+        }
+        asciiArt += '\n';
+      }
+
+      return asciiArt;
+    }
+
+    document.getElementById('imageUpload').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        const image = new Image();
+        image.onload = function() {
+          const asciiArt = convertToAscii(image);
+          document.getElementById('asciiArt').textContent = asciiArt;
+        };
+        image.src = event.target.result;
+      };
+
+      reader.readAsDataURL(file);
+    });
+  </script>
+</body>
+</html>
