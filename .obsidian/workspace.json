@@ -8,37 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c8c2823bc14232c",
+            "id": "620f17dfd6b6bd9f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "eleventaClone/Dudas.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "d7cc2fdf420fbaa9",
+            "id": "ec8e86523a1cd0df",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "91f5453928a07f47",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md"
+                "file": "eleventaClone/Tareas.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
+                "file": "eleventaClone/Tareas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
+                "file": "eleventaClone/Tareas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md"
+                "file": "eleventaClone/Tareas.md"
               }
             }
           }
@@ -167,10 +161,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1b57079c20b2c13",
+  "active": "ec8e86523a1cd0df",
   "lastOpenFiles": [
-    "gestion tiempo/Glosario.md",
+    "eleventaClone/Dudas.md",
+    "eleventaClone/Tareas.md",
+    "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md",
     "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
+    "Pagina Cine/Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
+    "Pagina Cine/Diseño/mockup/Main/HUB de articulos.canvas",
+    "Pagina Cine/Diseño/Control de versiones/2. Articulo 1.md",
+    "Pagina Cine/Diseño/1. Main.md",
+    "Pagina Cine/Excalidraw/Drawing 2024-06-04 15.50.45.excalidraw.md",
+    "Pagina Cine/Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
+    "eleventaClone/Excalidraw",
+    "eleventaClone",
+    "gestion tiempo/Excalidraw/Drawing 2024-06-11 11.52.48.excalidraw.md",
+    "gestion tiempo/Glosario.md",
     "gestion tiempo/Excalidraw",
     "gestion tiempo",
     "Nueva carpeta/Blip/Insp. Web General/ss.png",
@@ -192,8 +198,6 @@
     "Nueva carpeta/Blip/insp. Thumnail post",
     "Nueva carpeta/Blip/Insp. PosiblesIdeas",
     "Nueva carpeta/Blip/Insp. Imagenes General",
-    "Nueva carpeta/Blip/Insp. Colores",
-    "Nueva carpeta/Blip/Insp. Botones",
     "Nueva carpeta/Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
     "Nueva carpeta/Material/pruebaportada uno.png",
     "Nueva carpeta/Fases de desarrollo/Sin título.md",
@@ -209,14 +213,6 @@
     "Nueva carpeta/Diseño/1. Main.md",
     "Nueva carpeta/TODO.md",
     "Nueva carpeta/SCRUM.md",
-    "Nueva carpeta/README.md",
-    "Nueva carpeta/Organización del vault.md",
-    "Nueva carpeta/Tech/Screens/Main.md",
-    "Nueva carpeta/Tech/Hosting/Opciones.md",
-    "Nueva carpeta/Tech/DB/Datos.md",
-    "Nueva carpeta/Prototipo/Sin título.md",
-    "Nueva carpeta/Prototipo/Drawing 2024-05-31 13.21.58.excalidraw.md",
-    "Prototipo/Drawing 2024-05-31 13.21.58.excalidraw.md",
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"
