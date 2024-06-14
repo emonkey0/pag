@@ -1,3 +1,10 @@
+# To-Do
+-  [ ] Cargar datos de tablas de GESEM a  app.eraser.io
+-  [ ] Seleccionar Datos que iran en las tablas de geseMobile
+-  { 
+-
+}
+
 # Base de datos
 - ¿Como conectar sqlite a reactnative?
 	- [SQLite - Expo Documentation](https://docs.expo.dev/versions/latest/sdk/sqlite/)
