@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eleventaClone/Tareas.md",
+                "file": "eleventaClone/Analisis Querys GESEM.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eleventaClone/Tareas.md",
+                "file": "eleventaClone/Analisis Querys GESEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eleventaClone/Tareas.md",
+                "file": "eleventaClone/Analisis Querys GESEM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eleventaClone/Tareas.md"
+                "file": "eleventaClone/Analisis Querys GESEM.md"
               }
             }
           }
@@ -163,8 +163,12 @@
   },
   "active": "ec8e86523a1cd0df",
   "lastOpenFiles": [
-    "eleventaClone/Dudas.md",
     "eleventaClone/Tareas.md",
+    "eleventaClone/Analisis Querys GESEM.md",
+    "eleventaClone/Dudas.md",
+    "eleventaClone/Venta/Procesos/Apertura Venta",
+    "eleventaClone/Venta/Procesos",
+    "eleventaClone/Venta",
     "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md",
     "gestion tiempo/Excalidraw/Drawing 2024-06-10 10.43.33.excalidraw.md",
     "Pagina Cine/Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
@@ -195,9 +199,6 @@
     "Nueva carpeta/Blip/Imsp. Prompt/intento de general un scroll infinito de novato.txt",
     "Nueva carpeta/Blip/Insp. Web General",
     "Nueva carpeta/Blip/Insp. UI WEB",
-    "Nueva carpeta/Blip/insp. Thumnail post",
-    "Nueva carpeta/Blip/Insp. PosiblesIdeas",
-    "Nueva carpeta/Blip/Insp. Imagenes General",
     "Nueva carpeta/Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
     "Nueva carpeta/Material/pruebaportada uno.png",
     "Nueva carpeta/Fases de desarrollo/Sin título.md",
@@ -212,7 +213,6 @@
     "Nueva carpeta/Diseño/2. Articulo.md",
     "Nueva carpeta/Diseño/1. Main.md",
     "Nueva carpeta/TODO.md",
-    "Nueva carpeta/SCRUM.md",
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"

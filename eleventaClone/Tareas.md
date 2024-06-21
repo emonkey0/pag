@@ -1,15 +1,20 @@
 # To-Do
 -  [ ] Cargar datos de tablas de GESEM a  app.eraser.io
--  [ ] Seleccionar Datos que iran en las tablas de geseMobile
--  { 
--
-}
+	-  [x] Script python para obtener tablas
+	-   [ ] Script python para optener las relaciones
+-  [ ] Seleccionar Datos que irán en las tablas de geseMobile
+-  [ ] Obtener Procesos en la acción de una Venta
+	- [x] Dividir el pr+oceso en secciones manejables
+		-  Apertura Venta
+			- [ ] Filtrar Procesos Repetitivos  y tener solo las Querys necesarias pero guardando procesos que dejamos fuera para intentar repetir la accion sin errores
+			- [ ] 
+		-  Búsqueda de Producto
+			- [ ] 
+		-  SELECCIONAR UN PRODUCTO YA BUSCADO
+			- [ ] 
+		-  Agregar el producto al carrito 
+			- [ ] 
+		-  Cobrar 
+			- [ ] 
 
-# Base de datos
-- ¿Como conectar sqlite a reactnative?
-	- [SQLite - Expo Documentation](https://docs.expo.dev/versions/latest/sdk/sqlite/)
-- ¿Como hacer consultas en sqlite en reactnative y que funcione en ios y android?
 
-# BUILD
-- ¿Como hago una build para ios y android?
-	- [Create your first build - Expo Documentation](https://docs.expo.dev/build/setup/)
