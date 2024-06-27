@@ -54,9 +54,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "74834cee679621b5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
+            "id": "18b7c477e6aec918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eleventaClone/xd.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c04f0aea63525890",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -123,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "appLectorBarras/idea.md",
+                "file": "todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "appLectorBarras/idea.md",
+                "file": "todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "appLectorBarras/idea.md"
+                "file": "todo.md"
               }
             }
           }
@@ -185,8 +219,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9736cdd0cc761760",
+  "active": "c04f0aea63525890",
   "lastOpenFiles": [
+    "eleventaClone/xd.md",
+    "todo.md",
     "appLectorBarras/Drawing 2024-06-25 16.47.05.excalidraw.md",
     "appLectorBarras/idea.md",
     "Excalidraw",
@@ -235,8 +271,6 @@
     "Nueva carpeta/Diseño/Control de versiones/2. Articulo 1.md",
     "Nueva carpeta/Diseño/5. Creador de post de usuario.md",
     "Nueva carpeta/Diseño/4. Post de usuario.md",
-    "Nueva carpeta/Diseño/3. Panel de creacion de articulos.md",
-    "Nueva carpeta/Diseño/2. Articulo.md",
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"
