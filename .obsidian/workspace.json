@@ -176,17 +176,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9736cdd0cc761760",
+  "active": "eb291d715f1bcb7f",
   "lastOpenFiles": [
+    "Untitled",
     "appLectorBarras/Drawing 2024-06-25 16.47.05.excalidraw.md",
     "appLectorBarras/idea.md",
     "Excalidraw",
@@ -236,7 +237,6 @@
     "Nueva carpeta/Diseño/5. Creador de post de usuario.md",
     "Nueva carpeta/Diseño/4. Post de usuario.md",
     "Nueva carpeta/Diseño/3. Panel de creacion de articulos.md",
-    "Nueva carpeta/Diseño/2. Articulo.md",
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"
