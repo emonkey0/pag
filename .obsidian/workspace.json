@@ -49,14 +49,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "appLectorBarras/idea.md",
+                "file": "eleventaClone/Tareas.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "fcd28f8eabf85283",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "appLectorBarras/idea.md",
+                "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "appLectorBarras/idea.md",
+                "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "appLectorBarras/idea.md"
+                "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md"
               }
             }
           }
@@ -176,25 +186,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb291d715f1bcb7f",
+  "active": "fcd28f8eabf85283",
   "lastOpenFiles": [
+    "Drawer.gif",
+    "Tutos.md",
+    "eleventaClone/Tareas.md",
+    "eleventaClone/Dudas.md",
     "Untitled",
     "appLectorBarras/Drawing 2024-06-25 16.47.05.excalidraw.md",
     "appLectorBarras/idea.md",
     "Excalidraw",
     "eleventaClone/Analisis Querys GESEM.md",
     "appLectorBarras",
-    "eleventaClone/Tareas.md",
-    "eleventaClone/Dudas.md",
     "eleventaClone/Venta/Procesos/Apertura Venta",
     "eleventaClone/Venta/Procesos",
     "eleventaClone/Venta",
@@ -225,7 +237,6 @@
     "Nueva carpeta/Blip/Insp. Colores/Sin título.md",
     "Nueva carpeta/Blip/Insp. Botones/Sin título.md",
     "Nueva carpeta/Blip/Insp. Asiic/d6d8w0a-668eb79d-8183-4bdc-a5cc-6ca1fa24a36a.png",
-    "Nueva carpeta/Blip/Imsp. Prompt/intento de general un scroll infinito de novato.txt",
     "Nueva carpeta/Material/tumblr_b8ec4f01700b40f719be7a8572af6701_a3b03b54_400.webp",
     "Nueva carpeta/Material/pruebaportada uno.png",
     "Nueva carpeta/Fases de desarrollo/Sin título.md",
@@ -236,7 +247,6 @@
     "Nueva carpeta/Diseño/Control de versiones/2. Articulo 1.md",
     "Nueva carpeta/Diseño/5. Creador de post de usuario.md",
     "Nueva carpeta/Diseño/4. Post de usuario.md",
-    "Nueva carpeta/Diseño/3. Panel de creacion de articulos.md",
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"

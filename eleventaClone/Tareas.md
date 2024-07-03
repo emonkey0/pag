@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 # To-Do
 -  [ ] Cargar datos de tablas de GESEM a  app.eraser.io
 	-  [x] Script python para obtener tablas
@@ -18,3 +29,25 @@
 			- [ ] 
 
 
+# API
+
+#### Tablas SQLServer to SQLite
+- [ ] 1.
+- [ ] 2.
+#### Hacer venta
+- [ ] 1.
+- [ ] 2.
+
+# Front
+#### Lógica
+- [ ] 1.
+- [ ] 2.
+#### Estética
+- [ ] 1.
+- [ ] 2.
+##### IOS
+- [ ] 1.
+###### ANDROID
+- [ ] 1.
+##### WEB?
+- [ ] 1.
