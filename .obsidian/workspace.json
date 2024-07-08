@@ -56,12 +56,23 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "fcd28f8eabf85283",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md"
+=======
+            "id": "7415b0f2ea831e4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pagina Cine/follow.md",
+                "mode": "source",
+                "source": false
+>>>>>>> Stashed changes
               }
             }
           }
@@ -133,7 +144,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md",
+=======
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +164,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md",
+=======
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +190,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "eleventaClone/Excalidraw/Drawing 2024-06-11 13.25.11.excalidraw.md"
+=======
+                "file": "ucronias/Escenas Post-Video.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -197,16 +218,31 @@
   },
   "active": "fcd28f8eabf85283",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Drawer.gif",
     "Tutos.md",
     "eleventaClone/Tareas.md",
     "eleventaClone/Dudas.md",
+=======
+    "ucronias/speed anima a las tropas.md",
+    "ucronias/Escenas Post-Video.md",
+    "Pagina Cine/follow.md",
+    "ucronias",
+>>>>>>> Stashed changes
     "Untitled",
+    "Foro-Ventas y Servicios/Intro.md",
+    "eleventaClone/todo.md",
+    "Foro-Ventas y Servicios",
+    "eleventaClone/Dudas.md",
     "appLectorBarras/Drawing 2024-06-25 16.47.05.excalidraw.md",
     "appLectorBarras/idea.md",
     "Excalidraw",
     "eleventaClone/Analisis Querys GESEM.md",
     "appLectorBarras",
+<<<<<<< Updated upstream
+=======
+    "eleventaClone/Tareas.md",
+>>>>>>> Stashed changes
     "eleventaClone/Venta/Procesos/Apertura Venta",
     "eleventaClone/Venta/Procesos",
     "eleventaClone/Venta",
@@ -222,8 +258,6 @@
     "eleventaClone",
     "gestion tiempo/Excalidraw/Drawing 2024-06-11 11.52.48.excalidraw.md",
     "gestion tiempo/Glosario.md",
-    "gestion tiempo/Excalidraw",
-    "gestion tiempo",
     "Nueva carpeta/Blip/Insp. Web General/ss.png",
     "Nueva carpeta/Blip/Insp. Web General/Media Player.png",
     "Nueva carpeta/Blip/Insp. UI WEB/Search.png",
@@ -244,9 +278,12 @@
     "Nueva carpeta/Excalidraw/Drawing 2024-05-20 16.12.52.excalidraw.md",
     "Nueva carpeta/Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Nueva carpeta/Diseño/mockup/Main/HUB de articulos.canvas",
+<<<<<<< Updated upstream
     "Nueva carpeta/Diseño/Control de versiones/2. Articulo 1.md",
     "Nueva carpeta/Diseño/5. Creador de post de usuario.md",
     "Nueva carpeta/Diseño/4. Post de usuario.md",
+=======
+>>>>>>> Stashed changes
     "Diseño/mockup/Main/Scroll infinito de los usuarios.canvas",
     "Diseño/mockup/Main/HUB de articulos.canvas",
     "Sin título.canvas"
