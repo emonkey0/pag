@@ -10,10 +10,10 @@
 
 
 # To-Do
--  [ ] Cargar datos de tablas de GESEM a  app.eraser.io
+-  [x] Cargar datos de tablas de GESEM a  app.eraser.io
 	-  [x] Script python para obtener tablas
-	-   [ ] Script python para optener las relaciones
--  [ ] Seleccionar Datos que irán en las tablas de geseMobile
+	-   [x] Script python para optener las relaciones
+-  [x] Seleccionar Datos que irán en las tablas de geseMobile
 -  [ ] Obtener Procesos en la acción de una Venta
 	- [x] Dividir el pr+oceso en secciones manejables
 		-  Apertura Venta
